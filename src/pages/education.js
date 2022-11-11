@@ -1,4 +1,4 @@
-import React from "@types/react";
+import React from "react";
 
 const Education = () => {
     return (
@@ -10,7 +10,7 @@ const Education = () => {
                 height: '100vh'
             }}
         >
-            <h1>Annual Report</h1>
+            <h1>Education</h1>
         </div>
     );
 };

@@ -1,4 +1,4 @@
-import React from "@types/react";
+import React from "react";
 
 const Work = () => {
     return (
@@ -10,7 +10,7 @@ const Work = () => {
                 height: '100vh'
             }}
         >
-            <h1>Annual Report</h1>
+            <h1>Work</h1>
         </div>
     );
 };

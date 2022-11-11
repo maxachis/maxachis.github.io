@@ -7,6 +7,7 @@ import {
     NavMenu,
     NavBtn,
     NavBtnLink,
+
 } from './NavbarElements';
 
 const Navbar = () => {
@@ -16,30 +17,24 @@ const Navbar = () => {
                 <Bars />
 
                 <NavMenu>
+                    <NavLink to='/'>
+                        Home
+                    </NavLink>
                     <NavLink to='/about' activeStyle>
                         About
                     </NavLink>
-                    <NavLink to='/events' activeStyle>
-                        Events
+                    <NavLink to='/work' activeStyle>
+                        Work
                     </NavLink>
-                    <NavLink to='/annual' activeStyle>
-                        Annual Report
+                    <NavLink to='/projects' activeStyle>
+                        Projects
                     </NavLink>
-                    <NavLink to='/team' activeStyle>
-                        Teams
-                    </NavLink>
-                    <NavLink to='/blogs' activeStyle>
-                        Blogs
-                    </NavLink>
-                    <NavLink to='/sign-up' activeStyle>
-                        Sign Up
+                    <NavLink to='/education' activeStyle>
+                        Education
                     </NavLink>
                     {/* Second Nav */}
                     {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
                 </NavMenu>
-                <NavBtn>
-                    <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-                </NavBtn>
             </Nav>
         </>
     );
