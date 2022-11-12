@@ -7,7 +7,6 @@ import {
     NavMenu,
     NavBtn,
     NavBtnLink,
-
 } from './NavbarElements';
 
 const Navbar = () => {
@@ -15,7 +14,6 @@ const Navbar = () => {
         <>
             <Nav>
                 <Bars />
-
                 <NavMenu>
                     <NavLink to='/'>
                         Home

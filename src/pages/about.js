@@ -1,5 +1,5 @@
 import React from 'react';
-import pic from "./../profile_pic.png"
+// import pic from "../../public/assets/profile_pic.png"
 
 const About = () => {
     return (
@@ -12,7 +12,7 @@ const About = () => {
             }}
         >
             <h1>Jason Portfolio</h1>
-            <img src={pic} alt={"This is me! Hello!"} height={"300"}></img>
+            {/*<img src={pic} alt={"This is me! Hello!"} height={"300"}></img>*/}
             <p>Professional Portfoliologist</p>
         </div>
     );
