@@ -1,16 +1,22 @@
 import React from "react";
+import Config from "../config";
 
 const Projects = () => {
     return (
         <div
             style={{
-                display: 'flex',
+                // display: 'flow',
                 justifyContent: 'Right',
                 alignItems: 'Right',
                 height: '100vh'
             }}
         >
-            <h1>Projects</h1>
+            <div>
+                <h1>Projects</h1>
+            </div>
+            <div>
+                <p>{Config.PAGE_SUMMARY.Projects}</p>
+            </div>
         </div>
     );
 };

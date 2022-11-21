@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Create source branch to protect my precious work.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/maxachis.github.io.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThemeSwitcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomepageSketch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/NavbarElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/images/federated_hermes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/images/nanoramic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/images/profile_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/images/university_of_pittsburgh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/education.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/work.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PomBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThemeSwitcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar/NavbarElements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/images/federated_hermes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/images/nanoramic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/images/profile_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/images/university_of_pittsburgh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/education.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/work.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HV3sC0JWd4t5PB026sAXPwhklW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="" />
+      <created>1668356627571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668356627571</updated>
+      <workItem from="1668356629440" duration="52000" />
+      <workItem from="1668885365390" duration="10934000" />
+      <workItem from="1668905840308" duration="4714000" />
+      <workItem from="1668989429910" duration="6714000" />
+      <workItem from="1668996790847" duration="2440000" />
+    </task>
+    <task id="LOCAL-00001" summary="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages">
+      <created>1668885621457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668885621457</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages">
+      <created>1668886209265</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668886209265</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages">
+      <created>1668886260306</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668886260306</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages">
+      <created>1668886509942</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668886509942</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages">
+      <created>1668889493224</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668889493224</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages">
+      <created>1668890128473</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668890128473</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added first draft of p5.js homepage sketch.">
+      <created>1668996530662</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668996530662</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Modify config. Add more details to job and skills.">
+      <created>1668997239111</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668997239111</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="source" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages" />
+    <MESSAGE value="Added first draft of p5.js homepage sketch." />
+    <MESSAGE value="Modify config. Add more details to job and skills." />
+    <MESSAGE value="Create source branch to protect my precious work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create source branch to protect my precious work." />
+  </component>
+</project>

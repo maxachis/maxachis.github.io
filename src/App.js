@@ -20,6 +20,7 @@ import About from './pages/about.js';
 import Work from './pages/work';
 import Projects from './pages/projects';
 import Education from './pages/education';
+import Skills from './pages/skills';
 
 function App() {
     return (
@@ -31,23 +32,10 @@ function App() {
                 <Route path='/work' element={<Work />} />
                 <Route path='/projects' element={<Projects/>} />
                 <Route path='/education' element={<Education/>} />
+                <Route path='/skills' element={<Skills/>} />
             </Routes>
         </Router>
     );
 }
 
 export default App;
-
-// function App() {
-//   return (
-//
-//         <div className="App">
-//             <Navbar />
-//             <h1>Jason Portfolio</h1>
-//             <img src={pic} alt={"This is me! Hello!"}></img>
-//             <p>Professional Portfoliologist</p>
-//           {/*<ThemeSwitcher />*/}
-//             <PomBox numBitchRows={6}/>
-//         </div>
-//   );
-// }

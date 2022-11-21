@@ -40,3 +40,23 @@
 table, tr, th, td{
   border: 15px solid;
 }
+
+img {
+  clear: left;
+  background: transparent
+}
+
+div {
+  z-index: 1;
+}
+.front-of-sketch {
+  position: absolute;
+  top: 80px;
+  z-index: 999;
+
+}
+
+.background-sketch {
+  position: absolute;
+  z-index: -999;
+}

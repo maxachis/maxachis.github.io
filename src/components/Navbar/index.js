@@ -5,8 +5,6 @@ import {
     NavLink,
     Bars,
     NavMenu,
-    NavBtn,
-    NavBtnLink,
 } from './NavbarElements';
 
 const Navbar = () => {
@@ -29,6 +27,9 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink to='/education' activeStyle>
                         Education
+                    </NavLink>
+                    <NavLink to="/skills" activeStyle>
+                        Skills
                     </NavLink>
                     {/* Second Nav */}
                     {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}

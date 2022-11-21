@@ -16,7 +16,7 @@ function JobAccordion(props) {
                     <Typography variant={"h5"}>{props.job.title} ({props.job.start_date} - {props.job.end_date})</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <p><img style={{float: 'Right', padding: 1}} height={"100"} src={props.job.logo}></img>
+                    <p><img style={{float: 'Right', padding: 1}} height={"100"} src={props.job.logo} alt="Company Logo"></img>
                         {props.job.content}
                     </p>
                 </AccordionDetails>
@@ -36,13 +36,9 @@ const Work = () => {
             }}
         >
             <h1>Work</h1>
+            <p>{Config.PAGE_SUMMARY.Work}</p>
             {Config.WORK.map((job) => (
-                    <JobAccordion
-                        job={job}
-                    // title={`${job.title}, ${job.organization}` }
-                    // logo={`${job.logo}`}
-                    // content={job.content}
-                    />
+                    <JobAccordion job={job}/>
                 ))}
         </div>
     );
