@@ -7,8 +7,8 @@ const HomepageSketch = () => {
     const h = 400;
     const xc = w/2;
     const yc = h/2;
-    const xOrigin = xc/2 + 244;
-    const yOrigin = yc/2 + 10;
+    const xOrigin = xc/2 + 245;
+    const yOrigin = yc/2 + 12;
     // const rMax = 100;
     // const rInc = 1;
     const xInc = 1;
