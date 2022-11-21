@@ -4,29 +4,29 @@ import Accordion from '@mui/material/Accordion';
 import {AccordionDetails, AccordionSummary} from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Typography from '@mui/material/Typography';
-
+import Sketch from 'react-p5'
+import HomepageSketch from '../components/HomepageSketch';
 
 const Home = () => {
+
     return (
         <div
             style={{
-                // display: 'flex',
-                justifyContent: 'Left',
-                alignItems: 'Left',
-                height: '100vh'
+                display: 'flex',
+                // justifyContent: 'Left',
+                alignItems: 'Center',
+                // height: '100vh'
+                margin: 'auto',
+                width: '50%',
             }}
         >
-            <h1>Hello Gentlemen</h1>
-            <Accordion>
-                <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                >
-                    <Typography variant={"h5"}>BEEP BOOP</Typography>
-                </AccordionSummary>
-                <AccordionDetails>
-                    BEEP BOOP BIP BOP
-                </AccordionDetails>
-            </Accordion>
+            <div classname='front-of-sketch'>
+                <div className='background-sketch'>
+                    <HomepageSketch />
+                </div>
+                {/*<h1>Hello Gentlemen</h1>*/}
+
+            </div>
         </div>
     );
 };
