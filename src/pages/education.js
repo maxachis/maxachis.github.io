@@ -13,6 +13,9 @@ const Education = () => {
         >
             <h1>Education</h1>
             <p>{Config.PAGE_SUMMARY.Education}</p>
+            {Config.EDUCATION.map((education) => (
+                <h1>{education.Degree} - {education.University} - {education.GPA}</h1>
+            ))}
         </div>
     );
 };

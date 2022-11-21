@@ -81,8 +81,25 @@ const Config = {
             "description": "While I haven't used R for as long as other languages, I have used it almost as substantially in my work as Python. First learned when helping to develop the Code For Pittsburgh Food Access Map backend, I applied and refined my skills further in my Research Assistantship, my Graduate-level Machine Learning coursework, and in my Thesis, in all cases leveraging it to process data and present analyses on it. As a consequence, it has become my go-to language for the analysis of data."
         }
     ],
+    "EDUCATION": [
+        {
+            "Degree": "M.S. in Information Science",
+            "University": "University of Pittsburgh",
+            "GPA": "4.0"
+        },
+        {
+            "Degree": "B.S. in Computer Engineering",
+            "University": "University of Pittsburgh",
+            "GPA": "3.413"
+        },
+        {
+            "Degree": "B.S. in Psychology",
+            "University": "University of Pittsburgh",
+            "GPA": "3.650"
+        }
+    ],
     "ABOUT": {
-        "profile_pic": require("./components/assets/images/profile_pic.png"),
+        "profile_pic": require("./components/assets/images/profile_pic.jpg"),
         "name": "Max Chis",
         "description_short": "Software and Data Engineer with Background in AI Research",
         "description_long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
