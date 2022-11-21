@@ -14,7 +14,7 @@ const Config = {
             "organization": "Nanoramic Laboratories",
             "location": "Remote",
             "logo": require("./components/assets/images/nanoramic.png"),
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "content": "Researched and developed improvements experimental search efficiency, including reinforcement learning and Bayesian optimization-based solutions."
         },
         {
             "title": "Graduate Research Assistant",
@@ -23,7 +23,7 @@ const Config = {
             "organization": "University of Pittsburgh",
             "location": "Pittsburgh, PA",
             "logo": require("./components/assets/images/university_of_pittsburgh.png"),
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "content": "Worked on DARPA-funded Artificial Social Intelligence for Successful Teams (ASIST) project, focusing on theory of mind in team setting. Extracted, transformed, analyzed, and presented experimental data using R and Python. Developed interventions for Artificial Social Intelligence (ASI) agent using Python. "
         },
         {
             "title": "Associate Developer",
@@ -32,7 +32,7 @@ const Config = {
             "organization": "Federates Hermes",
             "location": "Pittsburgh, PA",
             "logo": require("./components/assets/images/federated_hermes.png"),
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "content": "Developed and augmented business intelligence applications using combination of C# ASP.Net framework, SQL Database (SQL Server and Oracle) and Excel VBA, including full-stack development of new web apps integrated with backend database."
         },
         {
             "title": "Intern",
@@ -41,17 +41,52 @@ const Config = {
             "organization": "Federates Hermes",
             "location": "Pittsburgh, PA",
             "logo": require("./components/assets/images/federated_hermes.png"),
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "content": "Developed and augmented business intelligence applications using SQL Database (SQL Server and Oracle) and Excel VBA. 2020 Federated Hermes Intern Hackathon, Company-wide winners."
         }
     ],
     "SKILLS": [
         {
             "name": "Python",
+            "logo": null,
             "experience_level": "Advanced",
             "years_of_experience": "6",
             "description": "Python is my strongest and longest-known coding language, learned when I first taught myself the basics of programming on Codecademy. My language of choice in personal projects, I also utilized it extensively in my time as a Graduate Research Assistant at the University of Pittsburgh and as a Data Science Intern at Nanoramic Laboratories. I am also well-acquainted with a number of its packages, including pandas, NumPy, Matplotlib, and PyTorch."
+        },
+        {
+            "name": "Java",
+            "logo": null,
+            "experience_level": "Intermediate",
+            "years_of_experience": "4",
+            "description": "With more experience in the classroom and in personal projects than in work, my knowledge of Java is most developed in the core fundamentals but with exposure to encryption, security, and network interfacing. In addition, it is the primary language for the Processing graphical library, and is thus my language of choice when developing generative art like what you see on this website."
+        },
+        {
+            "name": "JavaScript",
+            "logo": null,
+            "experience_level": "Intermediate",
+            "years_of_experience": "5",
+            "description": "Technically the first programming language I learned back in High School, those skills weren't fully explored until I returned to school for Computer Engineer, at which point they rose to become one of my most-used languages, used substantially in my ASP.Net web development work at Federated Investors as well as in helping to develop the front end for the Code for Pittsburgh Food Access Map. I also found myself using it substantially on a videogame called Bitburner, which literally required you to code to succeed in the game. It was at the point where I was coding for fun in my spare time that I began to suspect I had a slightly different relationship with programming than others."
+        },
+        {
+            "name": "C#",
+            "logo": null,
+            "experience_level": "Intermediate",
+            "years_of_experience": "3",
+            "description": "Utilized most prominently at Federated Investors when developing an ASP.NET web application, I also found myself using it when experimenting with personal and in-the-classroom Unity game development."
+        },
+        {
+            "name": "R",
+            "logo": null,
+            "experience_level": "Advanced",
+            "years_of_experience": "4",
+            "description": "While I haven't used R for as long as other languages, I have used it almost as substantially in my work as Python. First learned when helping to develop the Code For Pittsburgh Food Access Map backend, I applied and refined my skills further in my Research Assistantship, my Graduate-level Machine Learning coursework, and in my Thesis, in all cases leveraging it to process data and present analyses on it. As a consequence, it has become my go-to language for the analysis of data."
         }
-    ]
+    ],
+    "ABOUT": {
+        "profile_pic": require("./components/assets/images/profile_pic.png"),
+        "name": "Max Chis",
+        "description_short": "Software and Data Engineer with Background in AI Research",
+        "description_long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
 };
 
 export default Config;
