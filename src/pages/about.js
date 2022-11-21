@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div
             style={{
-                display: 'flex',
+                // display: 'flex',
                 justifyContent: 'Left',
                 alignItems: 'Left',
                 height: '100vh',
@@ -21,7 +21,9 @@ const About = () => {
                 <img src={Config.ABOUT.profile_pic} alt={"This is me! Hello!"} height={"300"}></img>
             </div>
             <div>
-                <p>{Config.ABOUT.description_long}</p>
+                {Config.ABOUT.description_long.map((paragraph) => (
+                    <p>{paragraph}</p>
+                ))}
             </div>
         </div>
     );

@@ -102,7 +102,12 @@ const Config = {
         "profile_pic": require("./components/assets/images/profile_pic.jpg"),
         "name": "Max Chis",
         "description_short": "Software and Data Engineer with Background in AI Research",
-        "description_long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "description_long": [
+            "After obtaining a degree in Psychology, I found myself drawn to exploring programming and software development. I went back to school for Computer Engineering and took to programming \"as a fish to water\", as they say.",
+            "Full-stack developer with experience in machine learning, data analytics, and database management. I've lost count of the number of languages I've programmed in, and I fully intend to lose count further as I learn more of them.",
+            "My work philosophy emphasizes fastiduous note taking, clearly defining work requirements, and breaking down problems into their subcomponents. While on the job, I divide my time between siloing myself away from distractions and chewing away at deep work as well as communicating and developing relationships with my coworkers. ",
+            "I believe that water cooler conversations aren't just a fun diversion, but are essential for a team. A project works much more smoothly when everyone feels like they can communicate freely with each other, and many a long development process can be shortened just by asking a few questions. Developing relationships with my team is paramount not just for morale but for team effectiveness."
+        ]
     }
 };
 
