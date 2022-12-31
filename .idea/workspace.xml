@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Modify config to include new profile picture and add education content. Modify education page accordingly.">
+    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Modify config to include about description, and modify about page &#10;&#10;Include about page formatting.">
+      <change afterPath="$PROJECT_DIR$/src/components/assets/images/projects/MLProjectCollage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/images/projects/food_access_map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/images/projects/generative_art.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/images/projects/thesis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/images/skills/cs_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/images/skills/java_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/images/skills/javascript_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/images/skills/python_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assets/images/skills/r_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomepageSketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomepageSketch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/assets/images/federated_hermes.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/assets/images/work/federated_hermes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/assets/images/nanoramic.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/assets/images/work/nanoramic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/assets/images/university_of_pittsburgh.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/assets/images/work/university_of_pittsburgh.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,27 +48,35 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2HV3sC0JWd4t5PB026sAXPwhklW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/maxac/WebstormProjects/maxachis.github.io/src/components/assets/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maxac/WebstormProjects/maxachis.github.io/src/components/assets/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\maxac\WebstormProjects\maxachis.github.io\src\components\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maxac\WebstormProjects\maxachis.github.io\src\components\assets\images\projects" />
+      <recent name="C:\Users\maxac\WebstormProjects\maxachis.github.io\src\components\assets\images\work" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +92,12 @@
       <workItem from="1668905840308" duration="4714000" />
       <workItem from="1668989429910" duration="6714000" />
       <workItem from="1668996790847" duration="3207000" />
-      <workItem from="1669035877998" duration="1292000" />
+      <workItem from="1669035877998" duration="6962000" />
+      <workItem from="1672241739056" duration="9056000" />
+      <workItem from="1672264445627" duration="5337000" />
+      <workItem from="1672320180536" duration="13248000" />
+      <workItem from="1672351512770" duration="35000" />
+      <workItem from="1672512016465" duration="6037000" />
     </task>
     <task id="LOCAL-00001" summary="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages">
       <created>1668885621457</created>
@@ -153,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669036759848</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Modify config to include about description, and modify about page &#10;&#10;Include about page formatting.">
+      <created>1669037236381</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669037236381</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +227,7 @@
     <MESSAGE value="Slight sketch adjustment" />
     <MESSAGE value="Add final profile picture" />
     <MESSAGE value="Modify config to include new profile picture and add education content. Modify education page accordingly." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify config to include new profile picture and add education content. Modify education page accordingly." />
+    <MESSAGE value="Modify config to include about description, and modify about page &#10;&#10;Include about page formatting." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify config to include about description, and modify about page &#10;&#10;Include about page formatting." />
   </component>
 </project>

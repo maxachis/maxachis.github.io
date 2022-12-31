@@ -10,7 +10,7 @@ const Home = () => {
                 display: 'flex',
                 // justifyContent: 'Left',
                 alignItems: 'Center',
-                // height: '100vh'
+                height: '85vh',
                 margin: 'auto',
                 width: '50%',
             }}
@@ -19,7 +19,6 @@ const Home = () => {
                 <div className='background-sketch'>
                     <HomepageSketch />
                 </div>
-                {/*<h1>Hello Gentlemen</h1>*/}
 
             </div>
         </div>
