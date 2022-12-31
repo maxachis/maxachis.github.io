@@ -50,13 +50,67 @@ div {
   z-index: 1;
 }
 .front-of-sketch {
-  position: absolute;
-  top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 999;
 
 }
 
 .background-sketch {
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*position: absolute;*/
   z-index: -999;
+}
+
+
+/* Projects Page*/
+.slideshow-image {
+  height:100%;
+  /*max-height:100%;*/
+  max-width: 100%;
+  object-fit: scale-down;
+}
+
+.slide-container {
+  position: relative;
+  /*max-width: 800px*/
+}
+
+.custom-slide {
+  margin: auto;
+  width: 100%;
+  /*max-width: 1000px;*/
+}
+
+.slideshow-content {
+  /*filter: opacity(30%);*/
+  background-color: rgba(255, 255, 255, 0.9); /* Color white with alpha 0.9*/
+  z-index: 999;
+  position: relative;
+  max-width: 50%;
+  min-width: 30%;
+  /*height: 100%;*/
+
+}
+
+.slideshow-content > p, h2{
+  /*filter: opacity(30%);*/
+  /*background-color: rgba(255, 255, 255, 0.9); !* Color white with alpha 0.9*!*/
+  z-index: 999;
+}
+
+.image-container {
+  z-index: -999;
+  position: absolute;
+  top: 0em;
+  right: 0;
+}
+
+.project-container{
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 20px;
 }
