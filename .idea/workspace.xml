@@ -1,196 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Modify config to include about description, and modify about page &#10;&#10;Include about page formatting.">
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/projects/MLProjectCollage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/projects/food_access_map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/projects/generative_art.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/projects/thesis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/skills/cs_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/skills/java_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/skills/javascript_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/skills/python_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/skills/r_logo.png" afterDir="false" />
+    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Miscellaneous updates">
+      <change afterPath="$PROJECT_DIR$/ToDo.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomepageSketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomepageSketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/assets/images/federated_hermes.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/assets/images/work/federated_hermes.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/assets/images/nanoramic.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/assets/images/work/nanoramic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/assets/images/university_of_pittsburgh.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/assets/images/work/university_of_pittsburgh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../maxachis.github.io\exportToHTML" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="gh-pages" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="MIXED" />
-    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
-  <component name="ProjectId" id="2HV3sC0JWd4t5PB026sAXPwhklW" />
+  <component name="ProjectId" id="2JhBexDGbP9us1D69zpm2oRJ5zR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/maxac/WebstormProjects/maxachis.github.io/src/components/assets/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\maxac\WebstormProjects\maxachis.github.io\src\components\assets\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\maxac\WebstormProjects\maxachis.github.io\src\components\assets\images\projects" />
-      <recent name="C:\Users\maxac\WebstormProjects\maxachis.github.io\src\components\assets\images\work" />
-    </key>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="" />
-      <created>1668356627571</created>
+      <changelist id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Miscellaneous updates" />
+      <created>1672520535918</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668356627571</updated>
-      <workItem from="1668356629440" duration="52000" />
-      <workItem from="1668885365390" duration="10934000" />
-      <workItem from="1668905840308" duration="4714000" />
-      <workItem from="1668989429910" duration="6714000" />
-      <workItem from="1668996790847" duration="3207000" />
-      <workItem from="1669035877998" duration="6962000" />
-      <workItem from="1672241739056" duration="9056000" />
-      <workItem from="1672264445627" duration="5337000" />
-      <workItem from="1672320180536" duration="13248000" />
-      <workItem from="1672351512770" duration="35000" />
-      <workItem from="1672512016465" duration="6037000" />
+      <updated>1672520535918</updated>
+      <workItem from="1672520537859" duration="1495000" />
     </task>
-    <task id="LOCAL-00001" summary="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages">
-      <created>1668885621457</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1668885621457</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages">
-      <created>1668886209265</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1668886209265</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages">
-      <created>1668886260306</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1668886260306</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages">
-      <created>1668886509942</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1668886509942</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages">
-      <created>1668889493224</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1668889493224</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages">
-      <created>1668890128473</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1668890128473</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added first draft of p5.js homepage sketch.">
-      <created>1668996530662</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1668996530662</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Modify config. Add more details to job and skills.">
-      <created>1668997239111</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1668997239111</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Create source branch to protect my precious work.">
-      <created>1668999267355</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1668999267355</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Slight sketch adjustment">
-      <created>1669036717498</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1669036717498</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Add final profile picture">
-      <created>1669036729966</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1669036729966</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Modify config to include new profile picture and add education content. Modify education page accordingly.">
-      <created>1669036759848</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1669036759848</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Modify config to include about description, and modify about page &#10;&#10;Include about page formatting.">
-      <created>1669037236381</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1669037236381</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +69,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="source" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -220,14 +82,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated for react-gh-pages per https://github.com/gitname/react-gh-pages" />
-    <MESSAGE value="Added first draft of p5.js homepage sketch." />
-    <MESSAGE value="Modify config. Add more details to job and skills." />
-    <MESSAGE value="Create source branch to protect my precious work." />
-    <MESSAGE value="Slight sketch adjustment" />
-    <MESSAGE value="Add final profile picture" />
-    <MESSAGE value="Modify config to include new profile picture and add education content. Modify education page accordingly." />
-    <MESSAGE value="Modify config to include about description, and modify about page &#10;&#10;Include about page formatting." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify config to include about description, and modify about page &#10;&#10;Include about page formatting." />
+    <MESSAGE value="Miscellaneous updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Miscellaneous updates" />
   </component>
 </project>
