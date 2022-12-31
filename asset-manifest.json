@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.38ae147a.css",
+    "main.js": "/static/js/main.52ba2908.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/nanoramic.png": "/static/media/nanoramic.619fa9e72fc6a09ec23c.png",
+    "static/media/federated_hermes.png": "/static/media/federated_hermes.7807de05618ff7b43547.png",
+    "static/media/profile_pic.png": "/static/media/profile_pic.d95a5ffa5fd0f986f0a7.png",
+    "static/media/university_of_pittsburgh.png": "/static/media/university_of_pittsburgh.3aa079b14db24dcf28e5.png",
+    "index.html": "/index.html",
+    "main.38ae147a.css.map": "/static/css/main.38ae147a.css.map",
+    "main.52ba2908.js.map": "/static/js/main.52ba2908.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38ae147a.css",
+    "static/js/main.52ba2908.js"
+  ]
+}
