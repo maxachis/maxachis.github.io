@@ -1,19 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.38ae147a.css",
-    "main.js": "/static/js/main.52ba2908.js",
+    "main.css": "/static/css/main.c6a72d99.css",
+    "main.js": "/static/js/main.d777db58.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/generative_art.png": "/static/media/generative_art.e633ba97fbb1265811f7.png",
+    "static/media/profile_pic.jpg": "/static/media/profile_pic.624f804a0a10a9c0a28f.jpg",
+    "static/media/thesis.png": "/static/media/thesis.e3e6115067ac8e931432.png",
+    "static/media/MLProjectCollage.jpg": "/static/media/MLProjectCollage.ae4f88d0782a901efe37.jpg",
+    "static/media/food_access_map.png": "/static/media/food_access_map.e5fb78a9870482482b70.png",
+    "static/media/python_logo.png": "/static/media/python_logo.faa23b5371bafcded934.png",
+    "static/media/r_logo.png": "/static/media/r_logo.ce0fd3eab451c3b757af.png",
     "static/media/nanoramic.png": "/static/media/nanoramic.619fa9e72fc6a09ec23c.png",
+    "static/media/java_logo.png": "/static/media/java_logo.b4d5f1a010a7c40ec945.png",
     "static/media/federated_hermes.png": "/static/media/federated_hermes.7807de05618ff7b43547.png",
-    "static/media/profile_pic.png": "/static/media/profile_pic.d95a5ffa5fd0f986f0a7.png",
     "static/media/university_of_pittsburgh.png": "/static/media/university_of_pittsburgh.3aa079b14db24dcf28e5.png",
+    "static/media/javascript_logo.png": "/static/media/javascript_logo.3104e7978aeec760c95c.png",
+    "static/media/cs_logo.png": "/static/media/cs_logo.cbffc1002b0188856770.png",
     "index.html": "/index.html",
-    "main.38ae147a.css.map": "/static/css/main.38ae147a.css.map",
-    "main.52ba2908.js.map": "/static/js/main.52ba2908.js.map",
+    "main.c6a72d99.css.map": "/static/css/main.c6a72d99.css.map",
+    "main.d777db58.js.map": "/static/js/main.d777db58.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38ae147a.css",
-    "static/js/main.52ba2908.js"
+    "static/css/main.c6a72d99.css",
+    "static/js/main.d777db58.js"
   ]
 }
