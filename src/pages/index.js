@@ -12,12 +12,12 @@ const Home = () => {
                 alignItems: 'Center',
                 height: '85vh',
                 margin: 'auto',
-                width: '50%',
+                // width: '50%',
             }}
         >
             <div className='front-of-sketch'>
                 <div className='background-sketch'>
-                    <HomepageSketch />
+                    <HomepageSketch windowHeight={window.innerHeight}/>
                 </div>
 
             </div>

@@ -1,27 +1,30 @@
 import React from "react";
 import Sketch from 'react-p5'
 
-const HomepageSketch = () => {
+const HomepageSketch = (props) => {
+    console.log(props.windowHeight)
 
     // Calculate initial height and width
     const hwRatio = 4
-    const h = 200
-    const w = h * hwRatio
+    const h = Math.floor(props.windowHeight/9);
+    const w = Math.floor(h * hwRatio)
     // Calculate inner box height and width
+    const factorCalc = (f1, f2) => {return Math.floor(f1 * f2)}
     const bwFactor = 0.75
     const bhFactor = 0.75
-    const bw = w * bwFactor
-    const bh = h * bhFactor
+    const bw = factorCalc(w, bwFactor)
+    const bh = factorCalc(h, bhFactor)
     // Calculate text height and width
     const twFactor = 0.75
     const thFactor = 0.75
-    const tw = bw * twFactor
-    const th = bh * thFactor
+    const tw = factorCalc(bw, twFactor)
+    const th = factorCalc(bh, thFactor)
     // Calculate padding
-    const padH = (h - bh)/2
-    const padW = (w - bw)/2
-    const textPadH = (bh - th)/2
-    const textPadW = (bw - tw)/2
+    const padCalc = (f1, f2) => {return Math.floor((f1 - f2)/2)}
+    const padH = padCalc(h, bh)
+    const padW = padCalc(w, bw)
+    const textPadH = padCalc(bh, th)
+    const textPadW = padCalc(bw, tw)
     // Calculate origin points of box and text
     const bx = padW
     const by = padH
@@ -51,13 +54,13 @@ const HomepageSketch = () => {
         movingLines.push(new MovingLine(0, 0, w, 0, 0.5, 0.5))
         movingLines.push(new MovingLine(w, h, 0, h, 0.5, 0.75))
 
-        // for (let x1 = -200; x1 < w + 200; x1 += 20) {
-        //     var x2 = get_x2(x1, 0, h, 45)
-        //     movingLines.push(new MovingLine(x1, 0, x2, h, 0.9, p5.random()))
-        //     x2 = get_x2(x1, 0, h, -45)
-        //     movingLines.push(new MovingLine(x1, 0, x2, h, 0.9, p5.random()))
-        //
-        // }
+        for (let x1 = -200; x1 < w + 200; x1 += 20) {
+            var x2 = get_x2(x1, 0, h, 45)
+            movingLines.push(new MovingLine(x1, 0, x2, h, 0.9, p5.random()))
+            x2 = get_x2(x1, 0, h, -45)
+            movingLines.push(new MovingLine(x1, 0, x2, h, 0.9, p5.random()))
+
+        }
 
 
     }
@@ -82,7 +85,6 @@ const HomepageSketch = () => {
             this.end = 1
             this.front = initial_front
             this.back = this.front - this.length
-            // this.reset()
         }
 
         reset() {
@@ -119,12 +121,12 @@ const HomepageSketch = () => {
         }
     }
 
-    const border = p5 => {
-        p5.line(0, 0, 0, h)
-        p5.line(w, 0, w, h)
-        p5.line(0, 0, w, 0)
-        p5.line(0, h, w, h)
-    }
+    // const border = p5 => {
+    //     p5.line(0, 0, 0, h)
+    //     p5.line(w, 0, w, h)
+    //     p5.line(0, 0, w, 0)
+    //     p5.line(0, h, w, h)
+    // }
 
     const draw = p5 => {
         for (var movingLine of movingLines) {
