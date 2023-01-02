@@ -156,7 +156,7 @@ const Config = {
             "description": [
                 "Because I wasn't busy enough during my time in grad school, I also decided to look into making generative art -- that is, art that is made using programming. Using the Processing programming library, along with its Java, Python, and Javascript-based implementations, I developed scripts that, when run, would create visual art based on the code within the scripts. An entire canvas, painted with comparatively few lines of code",
                 "What I found was that I note only enjoyed the art I created with this, but it also gave me the opportunity to explore programmatic, algorithmic, and geometric concepts in delightfully visual ways. Even glitches and bugs sometimes led to surprisingly pleasant results when played out on the canvas. It's since become a tool that I happily recommend to people when they're first learning how to code.",
-                "The title page of this very website, in fact, using animation from the Processing library -- in this case, the Javascript version the library."
+                "The title page of this very website, in fact, uses animation from the Processing library -- in this case, the Javascript version the library."
             ]
         }
     ],
