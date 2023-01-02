@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Update README.md and add ToDo list.">
+    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Fix bug with Hamburger menu not using full height of screen.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDo.md" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/NavbarElements.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/NavbarElements.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +43,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maxac\WebstormProjects\maxachis.github.io\public" />
+      <recent name="C:\Users\maxac\WebstormProjects\maxachis.github.io\src\components\assets\images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +59,11 @@
       <updated>1672520535918</updated>
       <workItem from="1672520537859" duration="2115000" />
       <workItem from="1672523588416" duration="883000" />
-      <workItem from="1672580407715" duration="16998000" />
+      <workItem from="1672580407715" duration="17585000" />
+      <workItem from="1672619138384" duration="127000" />
+      <workItem from="1672620790917" duration="30000" />
+      <workItem from="1672670535317" duration="1243000" />
+      <workItem from="1672673031129" duration="6182000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md and add ToDo list.">
       <created>1672522072590</created>
@@ -72,7 +72,84 @@
       <option name="project" value="LOCAL" />
       <updated>1672522072590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create custom accordion style.">
+      <created>1672618137225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672618137225</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Correct typo">
+      <created>1672618174700</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672618174700</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add custom accordion appearance">
+      <created>1672618221834</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672618221834</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Begin work on adding mobile features for website.">
+      <created>1672618260177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672618260177</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Personalize manifest and favicon">
+      <created>1672680185413</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672680185413</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Make image size more mobile-friendly, and remove previous stand-in image.">
+      <created>1672680212675</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672680212675</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update homepage sketch to resize with initially loaded window.">
+      <created>1672682589514</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672682589514</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Develop custom accordion to enable more flexibility with style.">
+      <created>1672682620840</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672682620840</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Center navbar and comment-out unused code.">
+      <created>1672682664888</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672682664888</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fix work logos improperly resizing.">
+      <created>1672682733231</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672682733231</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update Web page title.">
+      <created>1672682751407</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672682751407</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +181,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Miscellaneous updates" />
     <MESSAGE value="Update README.md and add ToDo list." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md and add ToDo list." />
+    <MESSAGE value="Create custom accordion style." />
+    <MESSAGE value="Correct typo" />
+    <MESSAGE value="Add custom accordion appearance" />
+    <MESSAGE value="Begin work on adding mobile features for website." />
+    <MESSAGE value="Personalize manifest and favicon" />
+    <MESSAGE value="Make image size more mobile-friendly, and remove previous stand-in image." />
+    <MESSAGE value="Update homepage sketch to resize with initially loaded window." />
+    <MESSAGE value="Develop custom accordion to enable more flexibility with style." />
+    <MESSAGE value="Center navbar and comment-out unused code." />
+    <MESSAGE value="Fix work logos improperly resizing." />
+    <MESSAGE value="Update Web page title." />
+    <MESSAGE value="Fix bug with Hamburger menu not using full height of screen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bug with Hamburger menu not using full height of screen." />
   </component>
 </project>
