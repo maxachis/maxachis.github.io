@@ -4,7 +4,6 @@ import {
     Nav,
     NavLink,
     BurgerLink,
-    Bars,
     NavMenu,
 } from './NavbarElements';
 import { slide as Menu } from 'react-burger-menu'
@@ -12,27 +11,27 @@ import { slide as Menu } from 'react-burger-menu'
 const Navbar = () => {
     return (
         <>
+            <Menu>
+                <BurgerLink to='/'>
+                    Home
+                </BurgerLink>
+                <BurgerLink to='/about' activeStyle>
+                    About
+                </BurgerLink>
+                <BurgerLink to='/work' activeStyle>
+                    Work
+                </BurgerLink>
+                <BurgerLink to='/projects' activeStyle>
+                    Projects
+                </BurgerLink>
+                <BurgerLink to='/education' activeStyle>
+                    Education
+                </BurgerLink>
+                <BurgerLink to="/skills" activeStyle>
+                    Skills
+                </BurgerLink>
+            </Menu>
             <Nav>
-                <Menu>
-                    <BurgerLink to='/'>
-                        Home
-                    </BurgerLink>
-                    <BurgerLink to='/about' activeStyle>
-                        About
-                    </BurgerLink>
-                    <BurgerLink to='/work' activeStyle>
-                        Work
-                    </BurgerLink>
-                    <BurgerLink to='/projects' activeStyle>
-                        Projects
-                    </BurgerLink>
-                    <BurgerLink to='/education' activeStyle>
-                        Education
-                    </BurgerLink>
-                    <BurgerLink to="/skills" activeStyle>
-                        Skills
-                    </BurgerLink>
-                </Menu>
                 <NavMenu>
                     <NavLink to='/'>
                         Home
