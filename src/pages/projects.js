@@ -19,15 +19,12 @@ const Projects = () => {
                 <hr/>
                 <Sliders focusedIdx={focusedIdx}>
                     {Config.PROJECTS.map((entry, index) => (
-                            <div className="slide-container">
+                            <div className="slide-container" style={{backgroundImage: "url(" + entry.image +")"}}>
                                 <div className="slideshow-content">
                                     <h2>{entry.name}</h2>
                                     {entry.description.map((p) => (
                                         <p>{p}</p>
                                     ))}
-                                </div>
-                                <div className="image-container">
-                                    <img className="slideshow-image" src={entry.image} />
                                 </div>
                             </div>
                     ))}
@@ -78,6 +75,7 @@ const StyledTabs = styled.div`
   position: relative;
   list-style: none;
   height: 30px;
+  z-index: 0;
   ${s.row}
 `;
 

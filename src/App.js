@@ -1,10 +1,4 @@
-// import logo from './logo.svg';
 import './App.css';
-// import ThemeSwitcher from "./ThemeSwitcher";
-// import PomBox from "./PomBox";
-// import pic from "./profile_pic.png"
-// import Navbar from "./components/Navigation/Navbar.js"
-
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS

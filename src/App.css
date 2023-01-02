@@ -37,23 +37,16 @@
   }
 }
 
-table, tr, th, td{
-  border: 15px solid;
-}
-
-img {
-  clear: left;
-  background: transparent
-}
-
 div {
   z-index: 1;
 }
+
+/* Home page */
 .front-of-sketch {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  z-index: 1;
 
 }
 
@@ -76,6 +69,10 @@ div {
 
 .slide-container {
   position: relative;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  max-height: 70vh;
   /*max-width: 800px*/
 }
 
@@ -88,10 +85,13 @@ div {
 .slideshow-content {
   /*filter: opacity(30%);*/
   background-color: rgba(255, 255, 255, 0.9); /* Color white with alpha 0.9*/
-  z-index: 999;
+  z-index: 1;
   position: relative;
   max-width: 50%;
   min-width: 30%;
+  border: 3px solid black;
+  overflow-y: auto;
+  max-height: 90%;
   /*height: 100%;*/
 
 }
@@ -99,7 +99,7 @@ div {
 .slideshow-content > p, h2{
   /*filter: opacity(30%);*/
   /*background-color: rgba(255, 255, 255, 0.9); !* Color white with alpha 0.9*!*/
-  z-index: 999;
+  z-index: 1;
 }
 
 .image-container {
@@ -113,4 +113,127 @@ div {
   max-width: 1200px;
   margin: auto;
   padding-top: 20px;
+}
+
+
+/* About page */
+.about-container{
+}
+
+.about-pic-mobile {
+  object-fit: scale-down;
+  /*max-height: 50vh;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  width: 100%
+  /*display: none;*/
+}
+
+
+.about-content-pad {
+  padding-top: 60vh
+}
+@media screen and (max-width: 768px) {
+  .about-content-pad {
+    padding-top: 0vh
+  }
+}
+
+.about-content {
+  background-color: rgba(255, 255, 255, 0.9); /* Color white with alpha 0.9*/
+  overflow-y: auto;
+  margin: auto;
+  max-height: 35vh;
+  max-width: 100%
+}
+@media screen and (max-width: 768px) {
+  .about-content {
+    overflow-y: visible;
+  }
+
+}
+
+.acc-header {
+  background-color: rgb(0, 0, 255);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#page-wrap {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+.bm-burger-button {
+  display: none;
+}
+/* Position and sizing of burger button */
+@media screen and (max-width: 768px) {
+  .bm-burger-button {
+    display: block;
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 30px;
+  }
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #000000;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  /*background: #ffffff;*/
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  z-index: 2
+
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: rgba(12, 6, 6, 0.66);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2
 }
