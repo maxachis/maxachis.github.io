@@ -12,6 +12,10 @@ const CustomAccordionSummary = styled(AccordionSummary)`
   z-index: 0;
 `;
 
+const CustomAccordionDetails = styled(AccordionDetails)`
+  padding-bottom: 20px;
+`
+
 const CustomAccordion = styled(Accordion)`
   z-index: 0;
 `;
@@ -23,14 +27,14 @@ function SkillsAccordion(props) {
                 <CustomAccordionSummary classes="acc-header" expandIcon={<ExpandMoreIcon />}>
                     <Typography variant={"h5"}>{props.skill.name}</Typography>
                 </CustomAccordionSummary>
-                <AccordionDetails>
+                <CustomAccordionDetails>
                     <Typography variant={"h6"}>Proficiency: {props.skill.experience_level}</Typography>
                     <Typography variant={"h6"}>Years of Experience: {props.skill.years_of_experience}</Typography>
                     <p>
                         <img style={{float: 'Right', padding: 1}} height={"100"} src={props.skill.logo} alt={props.skill.name}></img>
                         {props.skill.description}
                     </p>
-                </AccordionDetails>
+                </CustomAccordionDetails>
             </CustomAccordion>
         </div>
     )
