@@ -28,7 +28,7 @@ function JobAccordion(props) {
                     <Typography variant={"h5"}>{props.job.title} ({props.job.start_date} - {props.job.end_date})</Typography>
                 </CustomAccordionSummary>
                 <AccordionDetails>
-                    <p><img style={{float: 'Right', padding: 1}} height={"100"} src={props.job.logo} alt="Company Logo"></img>
+                    <p><img className="work-logo"  src={props.job.logo} alt="Company Logo"></img>
                         {props.job.content}
                     </p>
                 </AccordionDetails>
