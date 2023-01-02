@@ -11,15 +11,12 @@
 * Add the portfolio website itself, making an amusing recursive picture of the same page. If you can do that programmatically, even better.
 * Add more pics to MLCollage, using pics in ML project html file
 * Add more pics to thesis collage, making things more grid-like to minimize white space between graphs
-* Consider making all images same dimension.
+* Make all images same dimension.
 * For each project, add link if possible
 * Add border around outer div
 * Mobile: Tabs don't work on mobile. Replace with something else on mobile.
 * Mobile: For each project have title, image, and then allow them to scroll down to read about it.
 * Mobile: Possibly have smaller and more comprehensible collages/images than what you have on desktop. Watch you don't have to load too much.
-
-### Skills Page
-* Consider discussing your thoughts on each of the languages, including their comparative advantages and disadvantages (for example, how Python is good for an intro to coding but spoils you and sometimes has unintuitive interpreter behavior like the lists not copying themselves when passed as a parameter)
 
 ### Hamburger and slide
 * Clicking on burger to bring up slide, and then clicking directly on button (as opposed to elsewhere on screen) to remove slide causes burger to be slightly different icon shade. Clicking not on button fixes this.
@@ -29,17 +26,20 @@
 * Do I want background to be basic white, or a slightly off-white or some other color to give an extra splash of personality?
 * Slightly different color palettes, depending on the page? Just to add some variety.
 * Add Alt-text to images
+* Maybe make borders a little more faint than stark-black. And if many of your borders are going to be the same style, consider finding a way to refactor them to more DRY code.
+
+### General
+* Revise summary pages, which often reference a more premature development stage than is now the case
 
 ## All Clears
 
 ### Work page
 * All clear
 
-
-### Slide panel
+### Skills Page
 * All clear
 
-### General
+### Slide panel
 * All clear
 
 ### Home

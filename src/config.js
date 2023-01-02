@@ -50,35 +50,55 @@ const Config = {
             "logo": require("./components/assets/images/skills/python_logo.png"),
             "experience_level": "Advanced",
             "years_of_experience": "6",
-            "description": "Python is my strongest and longest-known coding language, learned when I first taught myself the basics of programming on Codecademy. My language of choice in personal projects, I also utilized it extensively in my time as a Graduate Research Assistant at the University of Pittsburgh and as a Data Science Intern at Nanoramic Laboratories. I am also well-acquainted with a number of its packages, including pandas, NumPy, Matplotlib, and PyTorch."
+            "description":
+                [
+                    "Python is my strongest and longest-known coding language, learned when I first taught myself the basics of programming on Codecademy. My language of choice in personal projects, I also utilized it extensively in my time as a Graduate Research Assistant at the University of Pittsburgh and as a Data Science Intern at Nanoramic Laboratories. I am also well-acquainted with a number of its packages, including pandas, NumPy, Matplotlib, and PyTorch.",
+                    "Python is my preferred language, and also the language I recommend to beginners. Python's emphasis on sparse syntax and meaningful use of whitespace makes it easy to read and hard to convolute. Some developers don't like the lack of freedom this provides, but I appreciate how Python standardizes its syntax and enforces a common lingua franca. There are many ways to write Java code, for example, but as a certain set of famous zen koans states, there's often only one way to write Pythonic code.",
+                    "That being said, Python's main disadvantages, from my perspective, is that it spoils you and sometimes tricks you. Python's simple and sparse format often means that it handles behind-the-scenes what other programming languages make more explicit, which can pose a problem if you don't know how exactly Python is handling things behind-the-scenes.",
+                    "A small but illustrative example is Python's duck-typing of numbers. The presence of a decimal point is all that separates Python recognizing a number as a float vs. an integer, and someone who doesn't know that may find themselves confused when they try to define a number and don't get what they're expecting. A language like Java, by requiring explicit value typing, avoids that problem. Python assumes you already know, which is a risky assumption to make."
+                ]
         },
         {
             "name": "Java",
             "logo": require("./components/assets/images/skills/java_logo.png"),
             "experience_level": "Intermediate",
             "years_of_experience": "4",
-            "description": "With more experience in the classroom and in personal projects than in work, my knowledge of Java is most developed in the core fundamentals but with exposure to encryption, security, and network interfacing. In addition, it is the primary language for the Processing graphical library, and is thus my language of choice when developing generative art like what you see on this website."
+            "description": [
+                "With more experience in the classroom and in personal projects than in work, my knowledge of Java is most developed in the core fundamentals but with exposure to encryption, security, and network interfacing. In addition, it is the primary language for the Processing graphical library, and is thus my language of choice when developing generative art like what you see on this website.",
+                "While I recommend Python as the language of choice for people just learning to code, I recommend Java as the language of choice for people wanting to familiarize themselves with more intermediate coding principles. Java's reliance on explicit typing and precision of syntax makes it harder for the compiler to surprise you, as unfortunately happens sometimes with Python. At the same time, Java's wordier syntax makes it easy to tangle yourself in knots if you don't have a good sense of first coding principles, which Python can better train you for."
+            ]
         },
         {
             "name": "JavaScript",
             "logo": require("./components/assets/images/skills/javascript_logo.png"),
             "experience_level": "Intermediate",
             "years_of_experience": "5",
-            "description": "Technically the first programming language I learned back in High School, those skills weren't fully explored until I returned to school for Computer Engineer, at which point they rose to become one of my most-used languages, used substantially in my ASP.Net web development work at Federated Investors as well as in helping to develop the front end for the Code for Pittsburgh Food Access Map. I also found myself using it substantially on a videogame called Bitburner, which literally required you to code to succeed in the game. It was at the point where I was coding for fun in my spare time that I began to suspect I had a slightly different relationship with programming than others."
+            "description": [
+                "Technically the first programming language I learned back in High School, those skills weren't fully explored until I returned to school for Computer Engineer, at which point they rose to become one of my most-used languages, used substantially in my ASP.Net web development work at Federated Investors as well as in helping to develop the front end for the Code for Pittsburgh Food Access Map. I also found myself using it substantially on a videogame called Bitburner, which literally required you to code to succeed in the game. It was at the point where I was coding for fun in my spare time that I began to suspect I had a slightly different relationship with programming than others.",
+                "While I'm happy to do work in Javascript, it is not my favorite language. In my mind, it combine's Java's wordy and cluttered syntax with Python's mysterious unspoken behind-the-scenes assumptions. It breaks my heart that Javascript is the primary language for front-end web scripting, and I think it's telling that the most popular Javascript frameworks like React do a lot to make Javascript not like Javascript."
+            ]
         },
         {
             "name": "C#",
             "logo": require("./components/assets/images/skills/cs_logo.png"),
             "experience_level": "Intermediate",
             "years_of_experience": "3",
-            "description": "Utilized most prominently at Federated Investors when developing an ASP.NET web application, I also found myself using it when experimenting with personal and in-the-classroom Unity game development."
+            "description": [
+                "Utilized most prominently at Federated Investors when developing an ASP.NET web application, I also found myself using it when experimenting with personal and in-the-classroom Unity game development.",
+                "In my experience, I consider C# to be broadly similar to Java in terms of syntax -- at least when contrasting both with languages such as Python and Javascript. I find both languages to be similar in terms of typing, syntax, and object-oriented programming, although I'm well aware that more in-depth utilization of both would make their differences more pronounced. If I had to choose between them for a project, I would probably defer to C#, both because I have more professional background with the language and also because I find the syntax more comprehensible and clean. Additionally, I prefer the consistency of a language managed by a longstanding company like Microsoft over the more open-source Java, if only because I find the quality of libraries to be more consistent."
+            ]
         },
         {
             "name": "R",
             "logo": require("./components/assets/images/skills/r_logo.png"),
             "experience_level": "Advanced",
             "years_of_experience": "4",
-            "description": "While I haven't used R for as long as other languages, I have used it almost as substantially in my work as Python. First learned when helping to develop the Code For Pittsburgh Food Access Map backend, I applied and refined my skills further in my Research Assistantship, my Graduate-level Machine Learning coursework, and in my Thesis, in all cases leveraging it to process data and present analyses on it. As a consequence, it has become my go-to language for the analysis of data."
+            "description":
+                [
+                    "While I haven't used R for as long as other languages, I have used it almost as substantially in my work as Python. First learned when helping to develop the Code For Pittsburgh Food Access Map backend, I applied and refined my skills further in my Research Assistantship, my Graduate-level Machine Learning coursework, and in my Thesis, in all cases leveraging it to process data and present analyses on it. As a consequence, it has become my go-to language for the analysis of data.",
+                    "Even though I believe R can be perfectly serviceable for a variety of programming needs, I also believe that unless your work involves solely the analysis and graphing of data, you're better off using another language. R's libraries are angled towards processing and presenting tabular data, and the language loses a lot of its advantages the more you move away from that focus. It occupies that Javascript space of having both complicated syntax and mysterious behind-the-scenes assumptions. The larger and more diverse a project is, the more I think it makes sense to switch to a language like Python.",
+                    "That being said, the pipe operator is one of the most sublime inventions known to man, and more languages should incorporate them. I'm still surprised that Python doesn't have such an operator natively."
+                ]
         }
     ],
     "EDUCATION": [
@@ -157,6 +177,18 @@ const Config = {
                 "Because I wasn't busy enough during my time in grad school, I also decided to look into making generative art -- that is, art that is made using programming. Using the Processing programming library, along with its Java, Python, and Javascript-based implementations, I developed scripts that, when run, would create visual art based on the code within the scripts. An entire canvas, painted with comparatively few lines of code",
                 "What I found was that I note only enjoyed the art I created with this, but it also gave me the opportunity to explore programmatic, algorithmic, and geometric concepts in delightfully visual ways. Even glitches and bugs sometimes led to surprisingly pleasant results when played out on the canvas. It's since become a tool that I happily recommend to people when they're first learning how to code.",
                 "The title page of this very website, in fact, uses animation from the Processing library -- in this case, the Javascript version the library."
+            ]
+        },
+        {
+            "name": "Portfolio website",
+            "start_date": "November 2022",
+            "end_date": "January 2023",
+            "image": null,
+            "description": [
+                "Having recently finished up my graduate degree and now returning to the job market, I decided one of my next projects should be designing a portfolio website. Because I'm me, this also meant that, rather than developing it using something I already know, such as ASP.NET, I would instead learn ReactJS, which I had no prior knowledge of, and use the portfolio website as an opportunity to develop my skills in a new area and also demonstrate how quickly I can develop those skills.",
+                "The primary challenge was bringing myself up to speed with ReactJS, which extended the more familiar-to-me Javascript language with less-familiar JSX and component-based scripting. Fortunately, my prior experience in ASP.NET syntax, which overlaps with JSX syntax, eased the transition with JSX, and React components, once you get over the slightly quirky syntax, are simply a convenient way to make web applications more object-oriented.",
+                "A secondary challenge lay in adapting the website for both desktop and mobile formats, as well as taking aesthetics into account. My previous web design experience was with in-house corporate applications primarily designed for use on a desktop, and focus was on function over form. For this project, I needed to take into account not only how it looked and worked on a desktop, but also how it looked and worked on mobile, and what elements would need to be changed to accomodate both. In some cases, as with my title animation, I only needed to change element dimension ratios. In other cases, as with page navigation, I needed to develop mostly-separate functionality.",
+                "Having brought this project to a satisfactory stage of development, I suspect that React will be my go-to tool for web app development in the future. Working with npm made library management a painless process, and the density of React documentation made it easier to fill in the blanks in my knowledge. React syntax, while sometimes a little odd, ultimately made dynamic page development much more comprehensible and allowing me to better separate concerns and thereby improve ease of design and maintenance.",
             ]
         }
     ],

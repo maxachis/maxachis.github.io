@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Fix bug with Hamburger menu not using full height of screen.">
+    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Update ToDo and workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDo.md" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <workItem from="1672619138384" duration="127000" />
       <workItem from="1672620790917" duration="30000" />
       <workItem from="1672670535317" duration="1243000" />
-      <workItem from="1672673031129" duration="6182000" />
+      <workItem from="1672673031129" duration="10106000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md and add ToDo list.">
       <created>1672522072590</created>
@@ -149,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672682751407</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fix bug with Hamburger menu not using full height of screen.">
+      <created>1672682796880</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672682796880</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update ToDo and workspace.xml">
+      <created>1672682809186</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672682809186</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +208,7 @@
     <MESSAGE value="Fix work logos improperly resizing." />
     <MESSAGE value="Update Web page title." />
     <MESSAGE value="Fix bug with Hamburger menu not using full height of screen." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bug with Hamburger menu not using full height of screen." />
+    <MESSAGE value="Update ToDo and workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update ToDo and workspace.xml" />
   </component>
 </project>

@@ -32,7 +32,9 @@ function SkillsAccordion(props) {
                     <Typography variant={"h6"}>Years of Experience: {props.skill.years_of_experience}</Typography>
                     <p>
                         <img style={{float: 'Right', padding: 1}} height={"100"} src={props.skill.logo} alt={props.skill.name}></img>
-                        {props.skill.description}
+                        {props.skill.description.map((p) => (
+                            <p>{p}</p>
+                        ))}
                     </p>
                 </CustomAccordionDetails>
             </CustomAccordion>
