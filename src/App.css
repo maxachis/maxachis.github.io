@@ -254,3 +254,38 @@ Note: Beware of modifying this element as it can break the animations - you shou
     max-height: 20vh;
   }
 }
+
+/*EDUCATION*/
+.sort-asc:after {
+  content: "";
+  display: block;
+  background: url("./components/assets/images/PointingHandsDown.png") no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 0 6px 0 0;
+  /*background-color: green;*/
+
+}
+.sort-desc:after {
+  content: "";
+  display: block;
+  background: url("./components/assets/images/PointingHandsUp.png") no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 0 6px 0 0;
+}
+
+.sort-default:after {
+  content: "";
+  display: block;
+  background: url("./components/assets/images/PointingHandsBoth.png") no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 0 6px 0 0;
+}

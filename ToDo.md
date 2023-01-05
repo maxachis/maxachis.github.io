@@ -5,10 +5,9 @@
 
 ### Education page
 * Narrative summary: why you did it and how you applied it
-* Courses 
 
 ### Projects Page
-* Add the portfolio website itself, making an amusing recursive picture of the same page. If you can do that programmatically, even better.
+* Add collage of website to portfolio project image
 * Add more pics to MLCollage, using pics in ML project html file
 * Add more pics to thesis collage, making things more grid-like to minimize white space between graphs
 * Make all images same dimension.
@@ -20,6 +19,7 @@
 
 ### Hamburger and slide
 * Clicking on burger to bring up slide, and then clicking directly on button (as opposed to elsewhere on screen) to remove slide causes burger to be slightly different icon shade. Clicking not on button fixes this.
+* Should hamburger always be at top of screen even when scrolling?
 
 ### Nice-to-have
 * Replace hamburger icon, accordion icon, and other things with custom icons, maybe using generative art or something that adds a bit more style.
