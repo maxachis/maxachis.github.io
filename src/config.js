@@ -6,6 +6,32 @@ const Config = {
         "Projects": "This page will describe personal projects. I'm not yet sure if I will include volunteer projects or keep that as a separate tab. Projects will, however, include class projects as well as personal projects, with Github Repos where available.",
         "Volunteer": "This page will describe my volunteer coding efforts. It may also describe my time at Garfield Community Farms and other volunteer experiences, but I'm not sure."
     },
+    "ROUTES": [
+        {
+            "Name": "Home",
+            "Path": "/"
+        },
+        {
+            "Name": "About",
+            "Path": "/about"
+        },
+        {
+            "Name": "Work",
+            "Path": "/work"
+        },
+        {
+            "Name": "Education",
+            "Path": "/education"
+        },
+        {
+            "Name": "Projects",
+            "Path": "/projects"
+        },
+        {
+            "Name": "Skills",
+            "Path": "/skills"
+        },
+    ],
     "WORK": [
         {
             "title": "Data Science Intern",
@@ -105,17 +131,354 @@ const Config = {
         {
             "Degree": "M.S. in Information Science",
             "University": "University of Pittsburgh",
-            "GPA": "4.0"
+            "GPA": "4.0",
+            "Classes": [
+                {
+                    "Name": "Database Management",
+                    "Semester": "Summer 2021",
+                    "Grade": "A+"
+                },
+                {
+                    "Name": "Human Information Processing",
+                    "Semester": "Fall 2021",
+                    "Grade": "A+"
+                },
+                {
+                    "Name": "Machine Learning",
+                    "Semester": "Fall 2021",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Applications of Networks",
+                    "Semester": "Fall 2021",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Information Storage and Retrieval",
+                    "Semester": "Spring 2022",
+                    "Grade": "A+"
+                },
+                {
+                    "Name": "Artificial Intelligence",
+                    "Semester": "Spring 2022",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Cloud Computing",
+                    "Semester": "Spring 2022",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Information Security and Privacy",
+                    "Semester": "Summer 2022",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Special Topics: Cognitive",
+                    "Semester": "Summer 2022",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Algorithm Design",
+                    "Semester": "Fall 2022",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Independent Study",
+                    "Semester": "Fall 2022",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Thesis",
+                    "Semester": "Fall 2022",
+                    "Grade": "A"
+                },
+            ]
         },
         {
             "Degree": "B.S. in Computer Engineering",
             "University": "University of Pittsburgh",
-            "GPA": "3.413"
+            "GPA": "3.413",
+            "Classes": [
+                {
+                    "Name": "General Chemistry 1",
+                    "Semester": "Summer 2017",
+                    "Grade": "A-"
+                },
+                {
+                    "Name": "Analytic Geometry and Calculus 1",
+                    "Semester": "Summer 2017",
+                    "Grade": "B+"
+                },
+                {
+                    "Name": "Basic Physics Science and Engineering 1",
+                    "Semester": "Summer 2017",
+                    "Grade": "B"
+                },
+                {
+                    "Name": "General Chemistry 2",
+                    "Semester": "Fall 2017",
+                    "Grade": "B"
+                },
+                {
+                    "Name": "Analytic Geometry and Calculus 2",
+                    "Semester": "Fall 2017",
+                    "Grade": "B-"
+                },
+                {
+                    "Name": "Basic Physics Science and Engineering 2",
+                    "Semester": "Fall 2017",
+                    "Grade": "C+"
+                },
+                {
+                    "Name": "Linear Circuits and Systems 1",
+                    "Semester": "Spring 2018",
+                    "Grade": "B"
+                },
+                {
+                    "Name": "Digital Logic",
+                    "Semester": "Spring 2018",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Intermediate Programming Using Java",
+                    "Semester": "Spring 2018",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Intro to Engineering Analysis",
+                    "Semester": "Spring 2018",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Differential Equations",
+                    "Semester": "Spring 2018",
+                    "Grade": "B"
+                },
+                {
+                    "Name": "Analysis and Design of Electric Circuits",
+                    "Semester": "Summer 2018",
+                    "Grade": "C"
+                },
+                {
+                    "Name": "Data Structures",
+                    "Semester": "Summer 2018",
+                    "Grade": "B+"
+                },
+                {
+                    "Name": "Probability and Statistics for Engineers 1",
+                    "Semester": "Summer 2018",
+                    "Grade": "B+"
+                },
+                {
+                    "Name": "Intro to Matrices and Linear Algebra",
+                    "Semester": "Summer 2018",
+                    "Grade": "B+"
+                },
+                {
+                    "Name": "Computer Organization and Assembly Language",
+                    "Semester": "Spring 2019",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Digital Systems Laboratory",
+                    "Semester": "Spring 2019",
+                    "Grade": "B"
+                },
+                {
+                    "Name": "Programming Language for Web Applications",
+                    "Semester": "Spring 2019",
+                    "Grade": "B"
+                },
+                {
+                    "Name": "Discrete Structures for Computer Science",
+                    "Semester": "Spring 2019",
+                    "Grade": "B+"
+                },
+                {
+                    "Name": "Written Professional Communication",
+                    "Semester": "Spring 2019",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Intro to Systems Software",
+                    "Semester": "Fall 2019",
+                    "Grade": "A-"
+                },
+                {
+                    "Name": "Software Engineering",
+                    "Semester": "Fall 2019",
+                    "Grade": "B"
+                },
+                {
+                    "Name": "Algorithm Implementation",
+                    "Semester": "Fall 2019",
+                    "Grade": "C+"
+                },
+                {
+                    "Name": "Formal Methods in Computer Science",
+                    "Semester": "Fall 2019",
+                    "Grade": "B-"
+                },
+                {
+                    "Name": "Intro to Computer Architecture",
+                    "Semester": "Spring 2020",
+                    "Grade": "B"
+                },
+                {
+                    "Name": "Intro to Compiler Design",
+                    "Semester": "Spring 2020",
+                    "Grade": "C"
+                },
+                {
+                    "Name": "Theory of Computation",
+                    "Semester": "Spring 2020",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Senior Design Project",
+                    "Semester": "Spring 2020",
+                    "Grade": "B"
+                },
+                {
+                    "Name": "Intro to Operating Systems",
+                    "Semester": "Summer 2020",
+                    "Grade": "A+"
+                },
+                {
+                    "Name": "Software Quality Assurance",
+                    "Semester": "Summer 2020",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Advanced Digital Design",
+                    "Semester": "Fall 2020",
+                    "Grade": "A-"
+                },
+
+            ]
         },
         {
             "Degree": "B.S. in Psychology",
             "University": "University of Pittsburgh",
-            "GPA": "3.650"
+            "GPA": "3.650",
+            "Classes": [
+                {
+                    "Name": "Drugs and Behavior",
+                    "Semester": "Fall 2014",
+                    "Grade": "B"
+                },
+                {
+                    "Name": "Introduction to Psychology",
+                    "Semester": "Fall 2014",
+                    "Grade": "A-"
+                },
+                {
+                    "Name": "Basic Applied Statistics",
+                    "Semester": "Fall 2014",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Intro to Gender, Sexuality, and Women's Studies",
+                    "Semester": "Fall 2014",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Geology",
+                    "Semester": "Spring 2015",
+                    "Grade": "B-"
+                },
+                {
+                    "Name": "Sex and Sexualities",
+                    "Semester": "Spring 2015",
+                    "Grade": "A-"
+                },
+                {
+                    "Name": "Gender and Sustainability",
+                    "Semester": "Spring 2015",
+                    "Grade": "B+"
+                },
+                {
+                    "Name": "Social Philosophy",
+                    "Semester": "Spring 2015",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Introduction to Social Psychology",
+                    "Semester": "Spring 2015",
+                    "Grade": "B"
+                },
+                {
+                    "Name": "Introduction to Sociology",
+                    "Semester": "Spring 2015",
+                    "Grade": "B+"
+                },
+                {
+                    "Name": "Speech Composition",
+                    "Semester": "Fall 2015",
+                    "Grade": "A-"
+                },
+                {
+                    "Name": "Forms of Prose",
+                    "Semester": "Fall 2015",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "World Politics",
+                    "Semester": "Fall 2015",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Research Methods",
+                    "Semester": "Fall 2015",
+                    "Grade": "A"
+                },
+                {
+                    "Name": "Psychology of Personality",
+                    "Semester": "Fall 2015",
+                    "Grade": "A+"
+                },
+                {
+                    "Name": "Developmental Psychology",
+                    "Semester": "Fall 2015",
+                    "Grade": "B"
+                },
+                {
+                    "Name": "Introduction to Modern Art",
+                    "Semester": "Spring 2016",
+                    "Grade": "A+"
+                },
+                {
+                    "Name": "Business Calculus",
+                    "Semester": "Spring 2016",
+                    "Grade": "B"
+                },
+                {
+                    "Name": "Learning and Motivation",
+                    "Semester": "Spring 2016",
+                    "Grade": "A-"
+                },
+                {
+                    "Name": "Cognitive Psychology",
+                    "Semester": "Spring 2016",
+                    "Grade": "A+"
+                },
+                {
+                    "Name": "Topics in Social Psychology: Conflict Resolution",
+                    "Semester": "Spring 2016",
+                    "Grade": "A+"
+                },
+                {
+                    "Name": "Supervised Field Placement",
+                    "Semester": "Spring 2016",
+                    "Grade": "S"
+                },
+                {
+                    "Name": "Abnormal Psychology",
+                    "Semester": "Summer 2016",
+                    "Grade": "A+"
+                },
+            ]
         }
     ],
     "ABOUT": {

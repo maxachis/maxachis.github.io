@@ -34,34 +34,6 @@ const Projects = () => {
     )};
 
 
-const StyledTabIndicator = styled.div`
-  position: absolute;
-  // Ensure width of tab indicator properly changes with number of tabs
-  width: ${(props) => 100 / props.tabCount}%;
-  top: 0%;
-  transform: translate(${(props) => props.offset}, 0%);
-  transition: transform ${(props) => props.duration}ms;
-
-  // Control appearance of line indicating selected tab
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-`;
-
-const StyledTab = styled.li`
-  flex: 1;
-  height: 100%;
-
-  button {
-    cursor: pointer;
-    transition: color 0.3s;
-    color: ${(props) => (props.isFocused ? "#000" : "#777")};
-    border: none;
-    width: 100%;
-    height: 100%;
-
-    background-color: rgba(0, 0, 0, 0);
-  }
-`;
 
 export const Tab = ({ title, onClick, isFocused }) => {
     return (
@@ -71,13 +43,7 @@ export const Tab = ({ title, onClick, isFocused }) => {
     );
 };
 
-const StyledTabs = styled.div`
-  position: relative;
-  list-style: none;
-  height: 30px;
-  z-index: 0;
-  ${s.row}
-`;
+
 
 export const Tabs = ({ focusedIdx, children, onChange, duration = 300 }) => {
     return (
@@ -99,6 +65,47 @@ export const Tabs = ({ focusedIdx, children, onChange, duration = 300 }) => {
         </StyledTabs>
     );
 };
+
+const Sliders = ({ focusedIdx, children, duration = 300 }) => {
+    const offset = -100 * focusedIdx;
+
+    return (
+        <StyledOuterSliders>
+            <StyledSliders offset={offset} duration={duration}>
+                {children}
+            </StyledSliders>
+        </StyledOuterSliders>
+    );
+};
+
+
+const StyledTabIndicator = styled.div`
+  position: absolute;
+  // Ensure width of tab indicator properly changes with number of tabs
+  width: ${(props) => 100 / props.tabCount}%;
+  top: 0%;
+  transform: translate(${(props) => props.offset}, 0%);
+  transition: transform ${(props) => props.duration}ms;
+
+  // Control appearance of line indicating selected tab
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+`;
+const StyledTab = styled.li`
+  flex: 1;
+  height: 100%;
+
+  button {
+    cursor: pointer;
+    transition: color 0.3s;
+    color: ${(props) => (props.isFocused ? "#000" : "#777")};
+    border: none;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0);
+  }
+`;
 const StyledOuterSliders = styled.div`
   overflow: hidden;
 `;
@@ -115,19 +122,12 @@ const StyledSliders = styled.div`
     width: 100%;
   }
 `;
-
-const Sliders = ({ focusedIdx, children, duration = 300 }) => {
-    const offset = -100 * focusedIdx;
-
-    return (
-        <StyledOuterSliders>
-            <StyledSliders offset={offset} duration={duration}>
-                {children}
-            </StyledSliders>
-        </StyledOuterSliders>
-    );
-};
-
-
+const StyledTabs = styled.div`
+  position: relative;
+  list-style: none;
+  height: 30px;
+  z-index: 0;
+  ${s.row}
+`;
 
 export default Projects;
