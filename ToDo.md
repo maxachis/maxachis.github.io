@@ -28,7 +28,6 @@
 * Maybe make borders a little more faint than stark-black, or otherwise prettier. And if many of your borders are going to be the same style, consider finding a way to refactor them to more DRY code.
 
 ### General
-* Revise summary pages, which often reference a more premature development stage than is now the case
 * Change navigation so that people can get to every part of the website from a link, and not just via the root
 
 ## All Clears

@@ -1,10 +1,9 @@
 const Config = {
     "PAGE_SUMMARY": {
         "Work": "This page describes, in brief, my professional experience.",
-        "Skills": "This page will provide a list of my skills and, eventually, will make them searchable and provide detail on the level of experience and related work and projects",
-        "Education": "This page will describe my education as well as the courses which I took in each. It will include information on my GPA, my time of attendance, and a brief summary of the degree.",
-        "Projects": "This page will describe personal projects. I'm not yet sure if I will include volunteer projects or keep that as a separate tab. Projects will, however, include class projects as well as personal projects, with Github Repos where available.",
-        "Volunteer": "This page will describe my volunteer coding efforts. It may also describe my time at Garfield Community Farms and other volunteer experiences, but I'm not sure."
+        "Skills": "This page provides a list of my skills and, eventually, will make them searchable and provide detail on the level of experience and related work and projects",
+        "Education": "This page describes my education as well as the courses which I took in each. It includes information on my GPA, my time of attendance, and a brief summary of the degree.",
+        "Projects": "This page describes personal projects, including volunteer projects."
     },
     "ROUTES": [
         {
