@@ -22,6 +22,7 @@ const Projects = () => {
                             <div className="slide-container" style={{backgroundImage: "url(" + entry.image +")"}}>
                                 <div className="slideshow-content">
                                     <h2>{entry.name}</h2>
+                                    <a href={entry.link}>Link</a>
                                     {entry.description.map((p) => (
                                         <p>{p}</p>
                                     ))}

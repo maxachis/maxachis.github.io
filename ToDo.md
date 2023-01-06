@@ -10,8 +10,9 @@
 * Add more pics to MLCollage, using pics in ML project html file
 * Add more pics to thesis collage, making things more grid-like to minimize white space between graphs
 * Make all images same dimension.
-* For each project, add link if possible
+* Modify so that if link is not available, link option doesn't appear
 * Add border around outer div
+* Add Portfolio website collage
 * Mobile: Tabs don't work on mobile. Replace with something else on mobile.
 * Mobile: For each project have title, image, and then allow them to scroll down to read about it.
 * Mobile: Possibly have smaller and more comprehensible collages/images than what you have on desktop. Watch you don't have to load too much.

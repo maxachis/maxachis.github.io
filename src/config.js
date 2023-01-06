@@ -496,6 +496,7 @@ const Config = {
             "name": "Master's Thesis",
             "start_date": "August 2022",
             "end_date": "December 2022",
+            // "link": "",
             "description": [
                 "My graduate research assistantship involved the analysis of large amounts of experimental data from the DARPA Artificial Social Intelligence for Successful Teams (ASIST) research trials. Much of my work involved finding ways to quantify the behaviors of players engaged in role-and-teamwork-based search-and-rescue simulations in Minecraft. Over the course of these analysis, I noticed quantifiable patterns in terms of how players divided their attention between multiple interdependent tasks. From that, I developed my Master's Thesis: \"Investigating the Cognitive Load- Productivity Tradeoff in Multitasking.\"",
                 "The core of the thesis was based around the idea that a lot of experimental studies fail to capture the full breadth of real-world phenomena by consigning that phenomena to limited laboratory conditions that don't match the real-life environments where they occur. In the case of multitasking, a lot of experimental studies on multitasking involving participants working on two unrelated tasks and having the participants switch between them when there's no real reason for them to. Unsurprisingly, performance decreased.",
@@ -508,6 +509,7 @@ const Config = {
             "name": "Code for Pittsburgh Food Access Map",
             "start_date": "May 2019",
             "end_date": "Present",
+            "link": "https://codeforpittsburgh.github.io/FoodAccessMap/index.html",
             "image": require("./components/assets/images/projects/food_access_map.png"),
             "description": [
                 "By no means a solo project, I nonetheless played a principal role in the development of the Code for Pittsburgh Food Access Map, a web application designed to assist people in the Pittsburgh Region locate nearby food sources.",
@@ -523,6 +525,7 @@ const Config = {
             "start_date": "October 2021",
             "end_date": "December 2021",
             "image": require("./components/assets/images/projects/MLProjectCollage.jpg"),
+            "link": "https://github.com/maxachis/machine-learning-final-project/tree/master",
             "description": [
                 "The final project for my graduate machine learning course involved data exploration of a real-life anonymized industrial dataset. Presented with a series of variables whose relationship to each other was unknown, our objective was to identify what these relationships were, and to develop models best able to accurately identify and classify them.",
                 "Working with two datasets that collectively involved 3600 discrete data points and over 40 dimensions in each, manually identifying correlations would have been all but impossible, particularly since the anonymization of the datasets meant that I did not know what dimensions corresponded to what. I had to perform extensive data exploration examining their distribution, correlation with one another, and correlation with the associated output variables.",
@@ -535,6 +538,7 @@ const Config = {
             "start_date": "?",
             "end_date": "?",
             "image": require("./components/assets/images/projects/generative_art.png"),
+            // "link": "",
             "description": [
                 "Because I wasn't busy enough during my time in grad school, I also decided to look into making generative art -- that is, art that is made using programming. Using the Processing programming library, along with its Java, Python, and Javascript-based implementations, I developed scripts that, when run, would create visual art based on the code within the scripts. An entire canvas, painted with comparatively few lines of code",
                 "What I found was that I note only enjoyed the art I created with this, but it also gave me the opportunity to explore programmatic, algorithmic, and geometric concepts in delightfully visual ways. Even glitches and bugs sometimes led to surprisingly pleasant results when played out on the canvas. It's since become a tool that I happily recommend to people when they're first learning how to code.",
@@ -545,6 +549,7 @@ const Config = {
             "name": "Portfolio website",
             "start_date": "November 2022",
             "end_date": "January 2023",
+            "link": "https://maxachis.github.io/",
             "image": null,
             "description": [
                 "Having recently finished up my graduate degree and now returning to the job market, I decided one of my next projects should be designing a portfolio website. Because I'm me, this also meant that, rather than developing it using something I already know, such as ASP.NET, I would instead learn ReactJS, which I had no prior knowledge of, and use the portfolio website as an opportunity to develop my skills in a new area and also demonstrate how quickly I can develop those skills.",
