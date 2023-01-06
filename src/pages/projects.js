@@ -3,136 +3,94 @@ import Config from "../config";
 import 'react-slideshow-image/dist/styles.css'
 import '../App.css'
 import styled from "styled-components";
-import s from "csd";
+import Accordion from "@mui/material/Accordion";
+import {AccordionDetails, AccordionSummary} from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Typography from "@mui/material/Typography";
+import {Tab, Tabs, Sliders} from "./../components/TabSlides/TabSlides";
+
+
+const ProjectsAccordion = (prop) => {
+    return (
+        prop.projects.map((project) => (
+            <CustomAccordion>
+                <CustomAccordionSummary classes="acc-header" expandIcon={<ExpandMoreIcon/>}>
+                    <Typography variant={"h5"}>{project.name}</Typography>
+                </CustomAccordionSummary>
+                <CustomAccordionDetails>
+                    <p>
+                        <img style={{float: 'Right', padding: 1}} width="100%" src={project.image}
+                             alt={project.name}></img>
+                        {project.description.map((p) => (
+                            <p>{p}</p>
+                        ))}
+                    </p>
+                </CustomAccordionDetails>
+            </CustomAccordion>
+        ))
+    )
+}
+
+const LinkIfAvailable = ({link}) => {
+    return (<a href={link ? link : ""}>{link ? "Link" : ""}</a>)
+};
+
+const ProjectsSlideShow = () => {
+
+    const [focusedIdx, setFocusedIdx] = React.useState(0);
+    return (
+        <div>
+            <Tabs focusedIdx={focusedIdx} onChange={setFocusedIdx}>
+                {Config.PROJECTS.map((entry, index) => (
+                    <Tab title={entry.name}/>
+                ))}
+            </Tabs>
+            <hr/>
+            <Sliders focusedIdx={focusedIdx}>
+                {Config.PROJECTS.map((entry, index) => (
+                    <div className="slide-container" style={{backgroundImage: "url(" + entry.image +")"}}>
+                        <div className="slideshow-content">
+                            <h2>{entry.name}</h2>
+                            <LinkIfAvailable link={entry.link}/>
+                            {entry.description.map((p) => (
+                                <p>{p}</p>
+                            ))}
+                        </div>
+                    </div>
+                ))}
+            </Sliders>
+    </div>
+    )
+}
+
 
 const Projects = () => {
-    const [focusedIdx, setFocusedIdx] = React.useState(0);
-    const LinkIfAvailable = ({link}) => {
-        return (<a href={link ? link : ""}>{link ? "Link" : ""}</a>)
-    };
-
     return (
         <div className={"project-container"}>
             <h1>Projects</h1>
-            <div>
-                <Tabs focusedIdx={focusedIdx} onChange={setFocusedIdx}>
-                    {Config.PROJECTS.map((entry, index) => (
-                        <Tab title={entry.name}/>
-                        ))}
-                </Tabs>
-                <hr/>
-                <Sliders focusedIdx={focusedIdx}>
-                    {Config.PROJECTS.map((entry, index) => (
-                            <div className="slide-container" style={{backgroundImage: "url(" + entry.image +")"}}>
-                                <div className="slideshow-content">
-                                    <h2>{entry.name}</h2>
-                                    <LinkIfAvailable link={entry.link}/>
-                                    {entry.description.map((p) => (
-                                        <p>{p}</p>
-                                    ))}
-                                </div>
-                            </div>
-                    ))}
-                </Sliders>
+            <div className="projects-mobile">
+                <ProjectsAccordion projects={Config.PROJECTS}/>
+            </div>
+            <div className="projects-nonmobile">
+                <ProjectsSlideShow/>
             </div>
         </div>
     )};
 
 
 
-export const Tab = ({ title, onClick, isFocused }) => {
-    return (
-        <StyledTab onClick={onClick} isFocused={isFocused}>
-            <button>{title}</button>
-        </StyledTab>
-    );
-};
-
-
-
-export const Tabs = ({ focusedIdx, children, onChange, duration = 300 }) => {
-    return (
-        <StyledTabs>
-            {React.Children.map(children, (child, i) =>
-                React.cloneElement(child, {
-                    key: i,
-                    isFocused: focusedIdx === i,
-                    onClick: (e) => {
-                        onChange(i);
-                    }
-                })
-            )}
-            <StyledTabIndicator
-                duration={duration}
-                tabCount={children.length}
-                offset={`${100 * focusedIdx}%`}
-            />
-        </StyledTabs>
-    );
-};
-
-const Sliders = ({ focusedIdx, children, duration = 300 }) => {
-    const offset = -100 * focusedIdx;
-
-    return (
-        <StyledOuterSliders>
-            <StyledSliders offset={offset} duration={duration}>
-                {children}
-            </StyledSliders>
-        </StyledOuterSliders>
-    );
-};
-
-
-const StyledTabIndicator = styled.div`
-  position: absolute;
-  // Ensure width of tab indicator properly changes with number of tabs
-  width: ${(props) => 100 / props.tabCount}%;
-  top: 0%;
-  transform: translate(${(props) => props.offset}, 0%);
-  transition: transform ${(props) => props.duration}ms;
-
-  // Control appearance of line indicating selected tab
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-`;
-const StyledTab = styled.li`
-  flex: 1;
-  height: 100%;
-
-  button {
-    cursor: pointer;
-    transition: color 0.3s;
-    color: ${(props) => (props.isFocused ? "#000" : "#777")};
-    border: none;
-    width: 100%;
-    height: 100%;
-
-    background-color: rgba(0, 0, 0, 0);
-  }
-`;
-const StyledOuterSliders = styled.div`
-  overflow: hidden;
-`;
-const StyledSliders = styled.div`
-  display: flex;
-  flex-wrap: nowrap;
-  width: 100%;
-
-  transform: translateX(${(props) => `${props.offset}%`});
-  transition: transform ${(props) => props.duration}ms;
-
-  div {
-    flex-shrink: 0;
-    width: 100%;
-  }
-`;
-const StyledTabs = styled.div`
-  position: relative;
-  list-style: none;
-  height: 30px;
+const CustomAccordionSummary = styled(AccordionSummary)`
+  background-color: #d1dede;
+  border: black solid 1px;
   z-index: 0;
-  ${s.row}
+`;
+
+const CustomAccordionDetails = styled(AccordionDetails)`
+  padding-bottom: 20px;
+`
+
+const CustomAccordion = styled(Accordion)`
+  z-index: 0;
 `;
 
 export default Projects;

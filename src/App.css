@@ -69,6 +69,25 @@ div {
   border: 1px solid black;
 }
 
+
+.projects-mobile{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .projects-mobile {
+    display: block;
+  }
+}
+
+.projects-nonmobile{
+}
+@media screen and (max-width: 768px) {
+  .projects-nonmobile {
+    display: none;
+  }
+}
+
 .slideshow-image {
   height:100%;
   /*max-height:100%;*/
@@ -260,6 +279,41 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 /*EDUCATION*/
+
+.education-container{
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 20px;
+  border: 1px solid black;
+}
+
+.edu-table-content-container {
+  display: flex;
+}
+
+.table-div {
+  /*overflow:hidden;*/
+  flex: 1;
+  overflow-y: scroll;
+  height: 500px;
+  float: left;
+}
+
+.edu-slide-content {
+  flex: 1;
+  /*width: 50%;*/
+}
+
+
+
+th {
+  top: 0;
+  z-index: 2;
+  position: sticky;
+  background-color: white;
+  border: 3px solid black;
+}
+
 .sort-asc:after {
   content: "";
   display: block;
@@ -270,7 +324,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   float: right;
   margin: 0 6px 0 0;
   /*background-color: green;*/
-
 }
 .sort-desc:after {
   content: "";

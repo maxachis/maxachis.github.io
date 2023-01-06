@@ -35,7 +35,7 @@ const Config = {
         {
             "title": "Data Science Intern",
             "start_date": "October 2022",
-            "end_date": "Present",
+            "end_date": "December 2022",
             "organization": "Nanoramic Laboratories",
             "location": "Remote",
             "logo": require("./components/assets/images/work/nanoramic.png"),

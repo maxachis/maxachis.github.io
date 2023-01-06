@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import Config from "../config";
 import styled from 'styled-components';
 import { useTable, useSortBy, useFilters } from 'react-table';
-
+import {Tab, Tabs, Sliders} from "./../components/TabSlides/TabSlides";
 
 
 function Table({ columns, data }) {
@@ -23,34 +23,79 @@ function Table({ columns, data }) {
 
     // Render the UI for your table
     return (
-        <table {...getTableProps()}>
-            <thead>
-            {headerGroups.map(headerGroup => (
-                <tr {...headerGroup.getHeaderGroupProps()}>
-                    {headerGroup.headers.map(column => (
-                        <th {...column.getHeaderProps(column.getSortByToggleProps)}
-                            className={
-                                column.isSorted ? column.isSortedDesc ? "sort-desc" : "sort-asc": "sort-default"
-                            }
+            <table {...getTableProps()}>
+                <thead>
+                {headerGroups.map(headerGroup => (
+                    <tr {...headerGroup.getHeaderGroupProps()}>
+                        {headerGroup.headers.map(column => (
+                            <th {...column.getHeaderProps(column.getSortByToggleProps)}
+                                className={
+                                    column.isSorted ? column.isSortedDesc ? "sort-desc" : "sort-asc": "sort-default"
+                                }
 
-                        >{column.render('Header')}</th>
-                    ))}
-                </tr>
-            ))}
-            </thead>
-            <tbody {...getTableBodyProps()}>
-            {rows.map((row, i) => {
-                prepareRow(row)
-                return (
-                    <tr {...row.getRowProps()}>
-                        {row.cells.map(cell => {
-                            return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
-                        })}
+                            >{column.render('Header')}</th>
+                        ))}
                     </tr>
-                )
-            })}
-            </tbody>
-        </table>
+                ))}
+                </thead>
+                <tbody {...getTableBodyProps()}>
+                {rows.map((row, i) => {
+                    prepareRow(row)
+                    return (
+                        <tr {...row.getRowProps()}>
+                            {row.cells.map(cell => {
+                                return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
+                            })}
+                        </tr>
+                    )
+                })}
+                </tbody>
+            </table>
+
+)
+}
+
+
+
+const Education = () => {
+    return (
+        <div className={"education-container"}>
+            <h1>Education</h1>
+            <p>{Config.PAGE_SUMMARY.Education}</p>
+            <EduSlideShow/>
+        </div>
+    );
+};
+
+const EduSlideShow = () => {
+
+    const [focusedIdx, setFocusedIdx] = React.useState(0);
+    return (
+        <div>
+            <Tabs focusedIdx={focusedIdx} onChange={setFocusedIdx}>
+                {Config.EDUCATION.map((entry, index) => (
+                    <Tab title={entry.Degree}/>
+                ))}
+            </Tabs>
+            <hr/>
+            <Sliders focusedIdx={focusedIdx}>
+                {Config.EDUCATION.map((entry, index) => (
+                    <div className="slide-container">
+                        <div className="slideshow-content">
+                            <h2>{entry.Degree}</h2>
+                        </div>
+                        <div className="edu-table-content-container">
+                            <div className="table-div">
+                                <EduTables data={entry.Classes}/>
+                            </div>
+                            <div className={"edu-slide-content"}>
+                                <p>LOREM IPSuM</p>
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </Sliders>
+        </div>
     )
 }
 
@@ -76,7 +121,7 @@ const TermSortFactory = () => {
 
 const EduTables = (props) => {
     var columnHeads = []
-    for (const [key, value] of Object.entries(props.data[0])) {
+    for (const [key, ] of Object.entries(props.data[0])) {
         columnHeads.push({
             Header: key,
             accessor: key,
@@ -100,28 +145,6 @@ const EduTables = (props) => {
     )
 }
 
-const Education = () => {
-    return (
-        <div
-            style={{
-                // display: 'flex',
-                justifyContent: 'Right',
-                alignItems: 'Right',
-                height: '100vh'
-            }}
-        >
-            <h1>Education</h1>
-            <p>{Config.PAGE_SUMMARY.Education}</p>
-            {Config.EDUCATION.map((education) => (
-                <span>
-                    <h1>{education.Degree} - {education.University} - {education.GPA}</h1>
-                    <EduTables data={education.Classes}/>
-                </span>
-
-            ))}
-        </div>
-    );
-};
 
 const Styles = styled.div`
   padding: 1rem;
