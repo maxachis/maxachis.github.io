@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Modify skills section to include discussions on comparative advantages of languages, and modify code to format those discussions properly.">
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/PointingHandsBoth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/PointingHandsDown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/PointingHandsUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/finger-down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/images/finger-up.png" afterDir="false" />
+    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Education Overhaul &#10;&#10;- Add tables with custom-sortable columns.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDo.md" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/education.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +67,8 @@
       <workItem from="1672701237555" duration="2031000" />
       <workItem from="1672754764438" duration="2022000" />
       <workItem from="1672856912688" duration="1935000" />
-      <workItem from="1672928482140" duration="10737000" />
+      <workItem from="1672928482140" duration="12013000" />
+      <workItem from="1673014078895" duration="187000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md and add ToDo list.">
       <created>1672522072590</created>
@@ -185,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672686804144</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Rearrange elements.">
+      <created>1672953142592</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672953142592</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Education Overhaul &#10;&#10;- Add tables with custom-sortable columns.">
+      <created>1672953193367</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672953193367</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +235,8 @@
     <MESSAGE value="Fix bug with Hamburger menu not using full height of screen." />
     <MESSAGE value="Update ToDo and workspace.xml" />
     <MESSAGE value="Modify skills section to include discussions on comparative advantages of languages, and modify code to format those discussions properly." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify skills section to include discussions on comparative advantages of languages, and modify code to format those discussions properly." />
+    <MESSAGE value="Rearrange elements." />
+    <MESSAGE value="Education Overhaul &#10;&#10;- Add tables with custom-sortable columns." />
+    <option name="LAST_COMMIT_MESSAGE" value="Education Overhaul &#10;&#10;- Add tables with custom-sortable columns." />
   </component>
 </project>

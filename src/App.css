@@ -120,6 +120,7 @@ div {
 
 /* About page */
 .about-container{
+  border: 2px solid #2c3034;
 }
 
 .about-pic-mobile {
