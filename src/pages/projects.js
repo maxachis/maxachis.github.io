@@ -7,6 +7,10 @@ import s from "csd";
 
 const Projects = () => {
     const [focusedIdx, setFocusedIdx] = React.useState(0);
+    const LinkIfAvailable = ({link}) => {
+        return (<a href={link ? link : ""}>{link ? "Link" : ""}</a>)
+    };
+
     return (
         <div className={"project-container"}>
             <h1>Projects</h1>
@@ -22,7 +26,7 @@ const Projects = () => {
                             <div className="slide-container" style={{backgroundImage: "url(" + entry.image +")"}}>
                                 <div className="slideshow-content">
                                     <h2>{entry.name}</h2>
-                                    <a href={entry.link}>Link</a>
+                                    <LinkIfAvailable link={entry.link}/>
                                     {entry.description.map((p) => (
                                         <p>{p}</p>
                                     ))}
