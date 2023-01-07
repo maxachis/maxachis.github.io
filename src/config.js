@@ -124,6 +124,19 @@ const Config = {
                     "Even though I believe R can be perfectly serviceable for a variety of programming needs, I also believe that unless your work involves solely the analysis and graphing of data, you're better off using another language. R's libraries are angled towards processing and presenting tabular data, and the language loses a lot of its advantages the more you move away from that focus. It occupies that Javascript space of having both complicated syntax and mysterious behind-the-scenes assumptions. The larger and more diverse a project is, the more I think it makes sense to switch to a language like Python.",
                     "That being said, the pipe operator is one of the most sublime inventions known to man, and more languages should incorporate them. I'm still surprised that Python doesn't have such an operator natively."
                 ]
+        },
+        {
+            "name": "React",
+            "logo": require("./components/assets/images/skills/react_logo.png"),
+            "experience_level": "Intermediate",
+            "years_of_experience": "1",
+            "description":
+                [
+                    "Despite being a JavaScript library, React is distinct enough from JavaScript that it merits its own section. ",
+                    "React does an excellent job of integrating JavaScript code, HTML, and CSS in an integrated environment that enables superior separation of concerns compared to a naive HTML-CSS-JavaScript website. The use of Components, which are called with syntax nigh-identical to that of HTML elements, is an ingenious solution to reducing HTML clutter while ensuring the Components' logic is properly associated within the location of the web app, and allows for superior refactoring.",
+                    "I learned React through the development of this portfolio website, which makes it the youngest of my skills presented here. That said, once I got around the initial syntactical oddities, React behaved much like any other object-oriented programming language, and much of the coding knowledge from those other languages transferred easily into React. You can look at this portfolio website and judge for yourself whether you'd consider it to be \"Intermediate\" versus \"Novice\", but on my own part, I'm confident enough with my knowledge of React to say my ability to work with it is comparable to that of other OOP Languages.",
+                    "Being a JavaScript library, React inherits many of JavaScript's oddities. The syntax is unconventional compared to other languages, and the initial learning curve was made steeper because I applied syntactical knowledge from over language to React to unexpected effect. An early example was that, if I passed arguments to a component, all of those arguments would be attributes of a 'props' object unless all of those named arguments were encased in curly braces in the function declaration, which is not how parameters work in Java or Python (or even native JavaScript). Additionally, even refactored React can be cluttered-looking, with a mesh of angle brackets, parenthesis, and curly braces. Some of this is the consequence of any web-facing language that has to dynamically insert HTML and CSS, although I think ASP.NET did it more cleanly (partly because it used the cleaner C#) and Python's Plotly Dash Library also allowed a cleaner syntax, albeit while unable to take full advantage of the power of HTML."
+                ]
         }
     ],
     "EDUCATION": [
