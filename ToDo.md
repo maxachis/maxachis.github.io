@@ -4,13 +4,13 @@
 
 ### Education page
 * Narrative summary: why you did it and how you applied it
-* Add pagination or scroll to table
+* Scroll down causes header to jerk up before stopping. Fix.
 * Add accordion 
 
 ### Projects Page
 * Add more pics to MLCollage, using pics in ML project html file
 * Add more pics to thesis collage, making things more grid-like to minimize white space between graphs
-* Make all images same dimension.
+* Make all images same dimension (1200x800px)
 * Add Portfolio website collage
 * Mobile: For each project have title, image, and then allow them to scroll down to read about it.
 * Mobile: Possibly have smaller and more comprehensible collages/images than what you have on desktop. Watch you don't have to load too much.
@@ -29,7 +29,10 @@
 * Slightly different color palettes, depending on the page? Just to add some variety.
 * Add Alt-text to images
 * Maybe make borders a little more faint than stark-black, or otherwise prettier. And if many of your borders are going to be the same style, consider finding a way to refactor them to more DRY code.
-* 
+* Add a link to your Master's Thesis in Projects; possibly also the data, if that's appropriate.
+* Make links more pretty-looking. Maybe give them a fancy font while retaining the blue highlight.
+* Consider changing fonts or adding more font variety: Bodoni MT/72, Copperplate Gothic, Didot, Garamond, Helvetica, Impact, Playfair Display (Italics)
+* If an image is dead, do not show the broken image icon
 
 ### General
 * Change navigation so that people can get to every part of the website from a link, and not just via the root

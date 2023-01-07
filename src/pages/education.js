@@ -24,6 +24,11 @@ function Table({ columns, data }) {
     // Render the UI for your table
     return (
             <table {...getTableProps()}>
+                <colgroup>
+                    <col span="1" className={"course-col"}/>
+                    <col span="1" className={"semester-col"}/>
+                    <col span="1" className={"grade-col"}/>
+                </colgroup>
                 <thead>
                 {headerGroups.map(headerGroup => (
                     <tr {...headerGroup.getHeaderGroupProps()}>
@@ -59,8 +64,8 @@ function Table({ columns, data }) {
 
 const Education = () => {
     return (
-        <div className={"education-container"}>
-            <h1>Education</h1>
+        <div className={"page-container"}>
+            <h1 className={"page-header"}>Education</h1>
             <p>{Config.PAGE_SUMMARY.Education}</p>
             <EduSlideShow/>
         </div>
@@ -81,15 +86,19 @@ const EduSlideShow = () => {
             <Sliders focusedIdx={focusedIdx}>
                 {Config.EDUCATION.map((entry, index) => (
                     <div className="slide-container">
-                        <div className="slideshow-content">
-                            <h2>{entry.Degree}</h2>
+                        <div className="education-slide-header">
+                            <h2>{entry.Degree} - GPA: {entry.GPA}</h2>
                         </div>
                         <div className="edu-table-content-container">
-                            <div className="table-div">
-                                <EduTables data={entry.Classes}/>
+                            <div className="table-container">
+                                <div className="table-div table-fix-head">
+                                    <EduTables data={entry.Classes}/>
+                                </div>
                             </div>
                             <div className={"edu-slide-content"}>
-                                <p>LOREM IPSuM</p>
+                                {entry.Description.map((p) => (
+                                    <p>{p}</p>
+                                ))}
                             </div>
                         </div>
                     </div>

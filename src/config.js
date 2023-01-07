@@ -2,7 +2,7 @@ const Config = {
     "PAGE_SUMMARY": {
         "Work": "This page describes, in brief, my professional experience.",
         "Skills": "This page provides a list of my skills and, eventually, will make them searchable and provide detail on the level of experience and related work and projects",
-        "Education": "This page describes my education as well as the courses which I took in each. It includes information on my GPA, my time of attendance, and a brief summary of the degree.",
+        "Education": "This page describes my education as well as the courses which I took in each. It includes information on my GPA, my time of attendance, and a summary of my experience with the degree.",
         "Projects": "This page describes personal projects, including volunteer projects."
     },
     "ROUTES": [
@@ -131,6 +131,13 @@ const Config = {
             "Degree": "M.S. in Information Science",
             "University": "University of Pittsburgh",
             "GPA": "4.0",
+            "Description": [
+                "Having graduated with my B.S. in Computing Engineering at the end of 2020, I had intended to pursue a Master's Degree on a part-time basis while still maintaining my job at Federated Investors. As it happens, however, Dr. Michael Lewis reached out to me shortly after I submitted my application to the University of Pittsburgh, offering a graduate research assistantship in AI that would fund the entirety of my degree as well as provide a stipend for living expenses, in exchange for me becoming a full-time student. After talking with multiple people about the offer, who all gave their enthusiastic support, I decided to take the offer, leaving my job at Federated and returning to school full-time.",
+                "The University of Pittsburgh MSIS program refined and expanded upon the education developed in my Computer Engineering career; classes covered topics including Database and Network management, Information Security, Artificial Intelligence and Machine Learning, Cloud Computing, and Algorithm Design. Additional coursework gave me my first experience in virtual reality and design using the Unity engine.",
+                "As it happens, entering grad school with a few years of work experience under my belt proved quite useful. The discipline of the 9-to-5 schedule, the attention to detail and communication skills I cultivated, as well as my accumulated coding experience gave me a leg up in my classes. My time with Code for Pittsburgh further improved my coding skills and experience with a range of common programmatic toolsets; it was quite gratifying when my Machine Learning course, which used R and had a reputation as one of the more difficult courses, was made somewhat easier by my prior experience with R at Code for Pittsburgh. Additionally, my graduate research assistanship proved to create a virtuous cycle where topics covered in class informed and improved my research and vice versa. That virtuous cycle culminated in my decision, relatively late in my program, to complete a Thesis (otherwise optional for my program), a decision which both gave me academic credit and allowed me to further develop my own research in a way that benefited both me and the program as a whole.",
+                "I had decided at some point early in my degree that I wanted to maintain a 4.0 GPA, and I did. What I learned from that enterprise is that maintaining a high GPA was not as much a product of raw intellectual power but more a product of proper time management, communication, and 'learning how to learn'. I started projects early and often finished them before other students had even begun. I took extensive notes in the classroom, asked clarifying questions, and made frequent use of office hours. I organized study groups and built up a network of fellow students who I could reach out to about questions related to my current as well as future courses I was preparing for.",
+                "Completing my MSIS degree was a proud moment for me, representing the culmination of years of personal and professional development that I could finally express to a more complete extent. I enjoyed the program (a surprising thing, I'm told, for graduate-level coursework) and was left with a stronger confidence in my work ethic and capacity to learn and learn quickly."
+            ],
             "Classes": [
                 {
                     "Name": "Database Management",
@@ -198,6 +205,12 @@ const Config = {
             "Degree": "B.S. in Computer Engineering",
             "University": "University of Pittsburgh",
             "GPA": "3.413",
+            "Description": [
+                "Having completed my Psychology Degree in 2016, I then spent a year in the Americorps VISTA program. While working in that program, I also began teaching myself coding in my non-work hours, and found myself taking to it rather well. As the year of my VISTA term progressed, I gradually realized that programming, and the work associated with programming, energized and engaged me in a way that I hadn't previously experienced. Though I acknowledged that returning to school meant that I would have to start at near the bottom of the educational ladder and slowly climb my way back up, there was something energizing and reassuring about the work I was starting to engage in, and the decision to start the Computer Engineering program at the University of Pittsburgh proved to be a relatively simple one.",
+                "My Computer Engineering program started with the fundamentals of chemistry, physics, and mathematics, and gradually expanded into circuit design, programming, and computer architecture and design. My coursework involved programming in C, Java, JavaScript, Unix, and Verilog, which should also convey the scope of the subject matter taught in the classes.",
+                "My Computer Engineering program was not always a smooth one. Having not taken a course on advanced math since high school, I faced a learning curve in rebuilding my atrophied mathematical knowledge. Gatekeeping courses such as Algorithm Implementation, intended as 'gatekeeping' courses designed to sift the wheat from the chaff, tested my still-young programming skills. Partway through my final year in Computer Engineering, the Coronavirus pandemic came to the United States, forcing a rocky transition into remote coursework. Finally, in the middle of my program, I began working at Federated Investors (now Federated Hermes), initially in a co-op rotation but quickly moving into a part-time role while pursuing a full courseload, an overall workload which was managed but not particularly pleasant.",
+                "In the end, however, I graduated with my degree in Computer Engineering, having learned the fundamental of 'computer work' and with considerable professional experience already under my belt. The experience was such that I was confident that I wanted to continu my education in a Master's program, although between the Coronavirus pandemic and having spent the last four years on quite the heavy workload, I was content to spend a semester simply doing work at Federated Hermes before returning my attention to school."
+            ],
             "Classes": [
                 {
                     "Name": "General Chemistry 1",
@@ -361,6 +374,12 @@ const Config = {
             "Degree": "B.S. in Psychology",
             "University": "University of Pittsburgh",
             "GPA": "3.650",
+            "Description": [
+                "While in retrospect an unconventional decision for someone who ultimately found a career in so-called 'computer work', my Psychology degree proved itself to be generally useful overall as well as having surprising benefits in my Artificial Intelligence work.",
+                "My degree covered the fundamentals of Psychology and research and then branched into more sophisticated topics such as developmental psychology, psychology of personality, abnormal psychology, and cognitive psychology, the last of which proved most directly relevant in my artificial intelligence work. In addition to my core curriculum, I also took general education courses ranging from women's studies, philosophy, world politics, and sociology.",
+                "Looking back on my undergraduate self, I recall a certain aimlessness, a sense of still getting my footing in the adult world and not yet knowing the direction I would take. It was only after stepping into my first full-time professional role in my Americorps VISTA program, taking immediately after graduation, that a more firm sense of direction and focus began to coalesce, ultimately leading into pursuing my Computer Engineering degree.",
+                "My psychology background found unexpected benefit in my graduate career. Dr. Michael Lewis, himself with a background in Psychology and Human Factors and leading research on artificial social intelligence, saw value in my prior experience, and ultimately extended the research assistantship to me based on those qualifications. His judgment on the value of that experience proved astute, as my Psychology background allowed me to find a niche in the ASIST study analyzing multitasking in complex team scenarios, a dynamic that I found was rarely studied in the scientific literature. That niche ultimately led to my Master's Thesis, \"Investigating the Cognitive Load - Productivity Tradeoff in Multitasking\"."
+            ],
             "Classes": [
                 {
                     "Name": "Drugs and Behavior",

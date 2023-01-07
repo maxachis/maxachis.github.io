@@ -9,6 +9,17 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Typography from "@mui/material/Typography";
 import {Tab, Tabs, Sliders} from "./../components/TabSlides/TabSlides";
 
+const ProjectsAccordionContent = (props) => {
+    return (
+        <p>
+            <img style={{float: 'Right', padding: 1}} width="100%" src={props.project.image}
+                 alt={props.project.name}/>
+            {props.project.description.map((p) => (
+                <p>{p}</p>
+            ))}
+        </p>
+    )
+}
 
 const ProjectsAccordion = (prop) => {
     return (
@@ -18,13 +29,7 @@ const ProjectsAccordion = (prop) => {
                     <Typography variant={"h5"}>{project.name}</Typography>
                 </CustomAccordionSummary>
                 <CustomAccordionDetails>
-                    <p>
-                        <img style={{float: 'Right', padding: 1}} width="100%" src={project.image}
-                             alt={project.name}></img>
-                        {project.description.map((p) => (
-                            <p>{p}</p>
-                        ))}
-                    </p>
+                    <ProjectsAccordionContent project={project}/>
                 </CustomAccordionDetails>
             </CustomAccordion>
         ))
@@ -66,12 +71,12 @@ const ProjectsSlideShow = () => {
 
 const Projects = () => {
     return (
-        <div className={"project-container"}>
-            <h1>Projects</h1>
-            <div className="projects-mobile">
+        <div className={"page-container"}>
+            <h1 className={"page-header"}>Projects</h1>
+            <div className="page-mobile">
                 <ProjectsAccordion projects={Config.PROJECTS}/>
             </div>
-            <div className="projects-nonmobile">
+            <div className="page-nonmobile">
                 <ProjectsSlideShow/>
             </div>
         </div>
