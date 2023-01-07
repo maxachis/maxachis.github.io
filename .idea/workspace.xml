@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Accordion Refactoring Initial.&#10;&#10;Begin Accordion refactoring. Replaced Projects with reference to PageAccordion. Will next do that for other pages with accordions.">
+    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Add React section in Skills and Logo">
       <change afterPath="$PROJECT_DIR$/src/components/ListPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <workItem from="1672856912688" duration="1935000" />
       <workItem from="1672928482140" duration="12013000" />
       <workItem from="1673014078895" duration="20506000" />
-      <workItem from="1673098127634" duration="17802000" />
+      <workItem from="1673098127634" duration="18477000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md and add ToDo list.">
       <created>1672522072590</created>
@@ -257,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673125655284</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add React section in Skills and Logo">
+      <created>1673127620509</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1673127620509</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +294,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update README.md and add ToDo list." />
     <MESSAGE value="Create custom accordion style." />
     <MESSAGE value="Correct typo" />
     <MESSAGE value="Add custom accordion appearance" />
@@ -312,7 +318,8 @@
     <MESSAGE value="Incomplete Education Overhaul&#10;&#10;Put in slide format." />
     <MESSAGE value="Education Overhaul Progression and light refactoring" />
     <MESSAGE value="Accordion Refactoring Initial.&#10;&#10;Begin Accordion refactoring. Replaced Projects with reference to PageAccordion. Will next do that for other pages with accordions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Accordion Refactoring Initial.&#10;&#10;Begin Accordion refactoring. Replaced Projects with reference to PageAccordion. Will next do that for other pages with accordions." />
+    <MESSAGE value="Add React section in Skills and Logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add React section in Skills and Logo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

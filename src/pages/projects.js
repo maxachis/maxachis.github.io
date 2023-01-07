@@ -5,6 +5,7 @@ import '../App.css'
 import Typography from "@mui/material/Typography";
 import {Tab, Tabs, Sliders} from "./../components/TabSlides/TabSlides";
 import {PageAccordion} from "./../components/Accordion";
+import {ListPage} from "./../components/ListPage";
 
 const ProjectsAccordionContent = (props) => {
     return (
@@ -60,15 +61,11 @@ const ProjectsSlideShow = () => {
 
 const Projects = () => {
     return (
-        <div className={"page-container"}>
-            <h1 className={"page-header"}>Projects</h1>
-            <div className="page-mobile">
-                <PageAccordion HeaderComponent={ProjectsAccordionHeader} DetailsComponent={ProjectsAccordionContent} arr={Config.PROJECTS}/>
-            </div>
-            <div className="page-nonmobile">
-                <ProjectsSlideShow/>
-            </div>
-        </div>
+        <ListPage
+            MobileComponent={<PageAccordion HeaderComponent={ProjectsAccordionHeader} DetailsComponent={ProjectsAccordionContent} arr={Config.PROJECTS}/>}
+            NonmobileComponent={<ProjectsSlideShow/>}
+            header={"Projects"}
+        />
     )
 };
 
