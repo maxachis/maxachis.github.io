@@ -14,6 +14,7 @@
 * Add Portfolio website collage
 * Mobile: For each project have title, image, and then allow them to scroll down to read about it.
 * Mobile: Possibly have smaller and more comprehensible collages/images than what you have on desktop. Watch you don't have to load too much.
+* Formatting runs into problems on iPad Air dimension
 
 ### Hamburger and slide
 * Clicking on burger to bring up slide, and then clicking directly on button (as opposed to elsewhere on screen) to remove slide causes burger to be slightly different icon shade. Clicking not on button fixes this.

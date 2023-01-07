@@ -2,7 +2,6 @@ import React from "react";
 import Sketch from 'react-p5'
 
 const HomepageSketch = (props) => {
-    console.log(props.windowHeight)
 
     // Calculate initial height and width
     const hwRatio = 4

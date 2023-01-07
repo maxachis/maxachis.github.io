@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Incomplete Education Overhaul&#10;&#10;Put in slide format.">
+    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Education Overhaul Progression and light refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDo.md" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/education.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomepageSketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomepageSketch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,7 @@
       <workItem from="1672856912688" duration="1935000" />
       <workItem from="1672928482140" duration="12013000" />
       <workItem from="1673014078895" duration="20506000" />
-      <workItem from="1673098127634" duration="9171000" />
+      <workItem from="1673098127634" duration="15624000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md and add ToDo list.">
       <created>1672522072590</created>
@@ -246,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673044807169</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Education Overhaul Progression and light refactoring">
+      <created>1673107720215</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673107720215</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +307,8 @@
     <MESSAGE value="Modify Projects so that if link is not available, link option doesn't appear" />
     <MESSAGE value="Add border around Projects outer div" />
     <MESSAGE value="Incomplete Education Overhaul&#10;&#10;Put in slide format." />
-    <option name="LAST_COMMIT_MESSAGE" value="Incomplete Education Overhaul&#10;&#10;Put in slide format." />
+    <MESSAGE value="Education Overhaul Progression and light refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Education Overhaul Progression and light refactoring" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
