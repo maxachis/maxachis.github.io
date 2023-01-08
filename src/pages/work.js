@@ -1,39 +1,21 @@
 import React from "react";
-import Accordion from '@mui/material/Accordion';
-import {AccordionDetails, AccordionSummary} from "@mui/material";
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Typography from '@mui/material/Typography';
 import Config from "./../config.js";
-import {styled} from "@mui/material/styles";
-
-const CustomAccordionSummary = styled(AccordionSummary)`
-  background-color: #d1dede;
-  border: black solid 1px;
-  z-index: 0;
-`;
-
-const CustomAccordion = styled(Accordion)`
-  z-index: 0;
-`;
+import {PageAccordion} from "./../components/Accordion";
 
 
-function JobAccordion(props) {
+const JobAccordionContent = ({elem}) => {
     return (
-        <div>
+        <p>
+            <img className="work-logo"  src={elem.logo} alt="Company Logo"></img>
+            {elem.content}
+        </p>
+    )
+}
 
-            <CustomAccordion>
-                <CustomAccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                >
-                    <Typography variant={"h5"}>{props.job.title} ({props.job.start_date} - {props.job.end_date})</Typography>
-                </CustomAccordionSummary>
-                <AccordionDetails>
-                    <p><img className="work-logo"  src={props.job.logo} alt="Company Logo"></img>
-                        {props.job.content}
-                    </p>
-                </AccordionDetails>
-            </CustomAccordion>
-        </div>
+const JobAccordionHeader = ({elem}) => {
+    return (
+        <Typography variant={"h5"}>{elem.title} ({elem.start_date} - {elem.end_date})</Typography>
     )
 }
 
@@ -41,7 +23,6 @@ const Work = () => {
     return (
         <div
             style={{
-                // display: 'flex',
                 justifyContent: 'Right',
                 alignItems: 'Right',
                 height: '100vh'
@@ -49,9 +30,7 @@ const Work = () => {
         >
             <h1>Work</h1>
             <p>{Config.PAGE_SUMMARY.Work}</p>
-            {Config.WORK.map((job) => (
-                    <JobAccordion job={job}/>
-                ))}
+            <PageAccordion HeaderComponent={JobAccordionHeader} DetailsComponent={JobAccordionContent} arr={Config.WORK}/>
         </div>
     );
 };

@@ -3,18 +3,20 @@
 ### About page
 
 ### Education page
-* Narrative summary: why you did it and how you applied it
 * Scroll down causes header to jerk up before stopping. Fix.
-* Add accordion 
+* Height of container on non-mobile is a little too short. Give it less distance from the bottom.
+* Mobile: Include where you got degree from? Probably in body instead of title.
 
 ### Projects Page
 * Add more pics to MLCollage, using pics in ML project html file
 * Add more pics to thesis collage, making things more grid-like to minimize white space between graphs
 * Make all images same dimension (1200x800px)
 * Add Portfolio website collage
-* Mobile: For each project have title, image, and then allow them to scroll down to read about it.
 * Mobile: Possibly have smaller and more comprehensible collages/images than what you have on desktop. Watch you don't have to load too much.
 * Formatting runs into problems on iPad Air dimension
+
+### Skills Page
+* For accordion setting, possibly have logo next to name in accordion, rather than in body.
 
 ### Hamburger and slide
 * Clicking on burger to bring up slide, and then clicking directly on button (as opposed to elsewhere on screen) to remove slide causes burger to be slightly different icon shade. Clicking not on button fixes this.
@@ -22,6 +24,7 @@
 
 ### Work page
 * Add more description to each job
+* Possibly change header structure, especially for mobile -- if you have to choose, should you choose the date or the title?
 
 ### Nice-to-have
 * Replace hamburger icon, accordion icon, and other things with custom icons, maybe using generative art or something that adds a bit more style.
@@ -34,16 +37,20 @@
 * Make links more pretty-looking. Maybe give them a fancy font while retaining the blue highlight.
 * Consider changing fonts or adding more font variety: Bodoni MT/72, Copperplate Gothic, Didot, Garamond, Helvetica, Impact, Playfair Display (Italics)
 * If an image is dead, do not show the broken image icon
+* A circle might look better for the animation, and do better with the vertical whitespace. Consider making it that.
 
 ### General
 * Change navigation so that people can get to every part of the website from a link, and not just via the root
+* Add ListPage Refactor to all pages (and make sure each page has mobile and nonmobile componenets)
+* Add Accordion refactor
+* Modify Accordion so that you can change the color of the associated elements without having to break your refactor (maybe pass classes as parameters?)
+* Continue to modify images so that they load more quickly -- in some cases, like the hands, they are so small that they can easily be compressed. Maybe research how to improve (or at least conceal) image load time.
 
 ## All Clears
 
 
 
-### Skills Page
-* All clear
+
 
 ### Slide panel
 * All clear

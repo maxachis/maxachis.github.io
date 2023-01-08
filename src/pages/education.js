@@ -1,110 +1,92 @@
 import React, { useMemo } from "react";
 import Config from "../config";
 import styled from 'styled-components';
-import { useTable, useSortBy, useFilters } from 'react-table';
-import {Tab, Tabs, Sliders} from "./../components/TabSlides/TabSlides";
-
-
-function Table({ columns, data }) {
-    // Use the state and functions returned from useTable to build your UI
-    const {
-        getTableProps,
-        getTableBodyProps,
-        headerGroups,
-        rows,
-        prepareRow,
-    } = useTable(
-        {
-            columns,
-            data,
-        },
-        useFilters,
-        useSortBy)
-
-    // Render the UI for your table
-    return (
-            <table {...getTableProps()}>
-                <colgroup>
-                    <col span="1" className={"course-col"}/>
-                    <col span="1" className={"semester-col"}/>
-                    <col span="1" className={"grade-col"}/>
-                </colgroup>
-                <thead>
-                {headerGroups.map(headerGroup => (
-                    <tr {...headerGroup.getHeaderGroupProps()}>
-                        {headerGroup.headers.map(column => (
-                            <th {...column.getHeaderProps(column.getSortByToggleProps)}
-                                className={
-                                    column.isSorted ? column.isSortedDesc ? "sort-desc" : "sort-asc": "sort-default"
-                                }
-
-                            >{column.render('Header')}</th>
-                        ))}
-                    </tr>
-                ))}
-                </thead>
-                <tbody {...getTableBodyProps()}>
-                {rows.map((row, i) => {
-                    prepareRow(row)
-                    return (
-                        <tr {...row.getRowProps()}>
-                            {row.cells.map(cell => {
-                                return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
-                            })}
-                        </tr>
-                    )
-                })}
-                </tbody>
-            </table>
-
-)
-}
-
-
+import {Tab, Tabs, Sliders, TabSlides} from "./../components/TabSlides/TabSlides";
+import {Table} from "./../components/Table"
+import {PageAccordion} from "./../components/Accordion";
+import {ListPage} from "./../components/ListPage";
 
 const Education = () => {
     return (
-        <div className={"page-container"}>
-            <h1 className={"page-header"}>Education</h1>
-            <p>{Config.PAGE_SUMMARY.Education}</p>
-            <EduSlideShow/>
-        </div>
+        <ListPage
+            MobileComponent={<PageAccordion
+                HeaderComponent={EduSlideshowTitle}
+                DetailsComponent={EduAccordionTabSlides}
+                arr={Config.EDUCATION}/>}
+            NonmobileComponent={<EduSlideShow/>}
+            header={"Education"}
+        />
     );
 };
 
-const EduSlideShow = () => {
+const EduSlideshowTitle = ({elem}) => {
+    return elem.Degree + " (GPA: " + elem.GPA + ")"
+}
 
+const EduTable = ({elem}) => {
+    return (
+        <div className="table-container">
+            <div className="table-div table-fix-head">
+                <EduTables data={elem.Classes}/>
+            </div>
+        </div>
+    )
+}
+
+const EduSlideContent = ({elem}) => {
+    return (
+        <div className={"edu-slide-content"}>
+            {elem.Description.map((p) => (
+                <p>{p}</p>
+            ))}
+        </div>
+    )
+}
+
+const EduAccordionTabSlides = ({elem}) => {
     const [focusedIdx, setFocusedIdx] = React.useState(0);
+
     return (
         <div>
             <Tabs focusedIdx={focusedIdx} onChange={setFocusedIdx}>
-                {Config.EDUCATION.map((entry, index) => (
-                    <Tab title={entry.Degree}/>
-                ))}
+                <Tab title={"Courses"}/>
+                <Tab title={"Overview"}/>
             </Tabs>
             <hr/>
             <Sliders focusedIdx={focusedIdx}>
-                {Config.EDUCATION.map((entry, index) => (
-                    <div className="slide-container">
-                        <div className="education-slide-header">
-                            <h2>{entry.Degree} - GPA: {entry.GPA}</h2>
-                        </div>
-                        <div className="edu-table-content-container">
-                            <div className="table-container">
-                                <div className="table-div table-fix-head">
-                                    <EduTables data={entry.Classes}/>
-                                </div>
-                            </div>
-                            <div className={"edu-slide-content"}>
-                                {entry.Description.map((p) => (
-                                    <p>{p}</p>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                ))}
+                <div className={"slide-container"}>
+                    <EduTable elem={elem}/>
+                </div>
+                <div className={"slide-container"}>
+                    <EduSlideContent elem={elem}/>
+                </div>
             </Sliders>
         </div>
+    )
+
+}
+
+const EduSlideshowSlide = ({elem}) => {
+    return (
+        <div className="slide-container">
+            <div className="education-slide-header">
+                <h2>{elem.Degree} - GPA: {elem.GPA}</h2>
+            </div>
+            <div className="edu-table-content-container">
+                <EduTable elem={elem}/>
+                <EduSlideContent elem={elem}/>
+            </div>
+        </div>
+    )
+}
+
+const EduSlideShow = () => {
+    return (
+        <TabSlides
+            TitleComponent={EduSlideshowTitle}
+            SlideContent={EduSlideshowSlide}
+            arr={Config.EDUCATION}
+        />
     )
 }
 

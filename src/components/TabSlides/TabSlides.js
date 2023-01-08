@@ -3,9 +3,7 @@ import styled from "styled-components";
 import s from "csd";
 
 
-//
 
-//
 const Tab = ({ title, onClick, isFocused }) => {
     return (
         <StyledTab onClick={onClick} isFocused={isFocused}>
@@ -47,6 +45,27 @@ export const Sliders = ({ focusedIdx, children, duration = 300 }) => {
                 {children}
             </StyledSliders>
         </StyledOuterSliders>
+    );
+};
+
+export const TabSlides = ({TitleComponent, SlideContent, arr}) => {
+    const [focusedIdx, setFocusedIdx] = React.useState(0);
+
+    return (
+        <div>
+            <Tabs focusedIdx={focusedIdx} onChange={setFocusedIdx}>
+                {arr.map((elem) => (
+                    <Tab title={<TitleComponent elem={elem}/>}/>
+                    // <TabContent elem={elem}/>
+                ))}
+            </Tabs>
+            <hr/>
+            <Sliders focusedIdx={focusedIdx}>
+                {arr.map((elem) => (
+                    <SlideContent elem={elem}/>
+                ))}
+            </Sliders>
+        </div>
     );
 };
 

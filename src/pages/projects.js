@@ -3,7 +3,7 @@ import Config from "../config";
 import 'react-slideshow-image/dist/styles.css'
 import '../App.css'
 import Typography from "@mui/material/Typography";
-import {Tab, Tabs, Sliders} from "./../components/TabSlides/TabSlides";
+import {TabSlides} from "./../components/TabSlides/TabSlides";
 import {PageAccordion} from "./../components/Accordion";
 import {ListPage} from "./../components/ListPage";
 
@@ -26,35 +26,35 @@ const ProjectsAccordionHeader = (props) => {
     )
 }
 
+const ProjectsSlideshowTitle = ({elem}) => {
+    return elem.name
+}
+
+const ProjectsSlideshowSlide = ({elem}) => {
+    return (
+        <div className="slide-container" style={{backgroundImage: "url(" + elem.image +")"}}>
+            <div className="slideshow-content">
+                <h2>{elem.name}</h2>
+                <LinkIfAvailable link={elem.link}/>
+                {elem.description.map((p) => (
+                    <p>{p}</p>
+                ))}
+            </div>
+        </div>
+    )
+}
+
 const LinkIfAvailable = ({link}) => {
     return (<a href={link ? link : ""}>{link ? "Link" : ""}</a>)
 };
 
 const ProjectsSlideShow = () => {
-
-    const [focusedIdx, setFocusedIdx] = React.useState(0);
     return (
-        <div>
-            <Tabs focusedIdx={focusedIdx} onChange={setFocusedIdx}>
-                {Config.PROJECTS.map((entry, index) => (
-                    <Tab title={entry.name}/>
-                ))}
-            </Tabs>
-            <hr/>
-            <Sliders focusedIdx={focusedIdx}>
-                {Config.PROJECTS.map((entry, index) => (
-                    <div className="slide-container" style={{backgroundImage: "url(" + entry.image +")"}}>
-                        <div className="slideshow-content">
-                            <h2>{entry.name}</h2>
-                            <LinkIfAvailable link={entry.link}/>
-                            {entry.description.map((p) => (
-                                <p>{p}</p>
-                            ))}
-                        </div>
-                    </div>
-                ))}
-            </Sliders>
-    </div>
+        <TabSlides
+            TitleComponent={ProjectsSlideshowTitle}
+            SlideContent={ProjectsSlideshowSlide}
+            arr={Config.PROJECTS}
+        />
     )
 }
 
@@ -62,7 +62,10 @@ const ProjectsSlideShow = () => {
 const Projects = () => {
     return (
         <ListPage
-            MobileComponent={<PageAccordion HeaderComponent={ProjectsAccordionHeader} DetailsComponent={ProjectsAccordionContent} arr={Config.PROJECTS}/>}
+            MobileComponent={<PageAccordion
+                HeaderComponent={ProjectsAccordionHeader}
+                DetailsComponent={ProjectsAccordionContent}
+                arr={Config.PROJECTS}/>}
             NonmobileComponent={<ProjectsSlideShow/>}
             header={"Projects"}
         />

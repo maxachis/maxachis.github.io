@@ -1,53 +1,33 @@
 import React from "react";
 import Config from "../config";
-import Accordion from "@mui/material/Accordion";
-import { styled } from '@mui/material/styles';
-import {AccordionDetails, AccordionSummary} from "@mui/material";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Typography from "@mui/material/Typography";
+import {PageAccordion} from "./../components/Accordion";
 
-const CustomAccordionSummary = styled(AccordionSummary)`
-  background-color: #d1dede;
-  border: black solid 1px;
-  z-index: 0;
-`;
-
-const CustomAccordionDetails = styled(AccordionDetails)`
-  padding-bottom: 20px;
-`
-
-const CustomAccordion = styled(Accordion)`
-  z-index: 0;
-`;
-
-function SkillsAccordion(props) {
+const SkillAccordionContent = (props) => {
     return (
-        <div>
-            <CustomAccordion>
-                <CustomAccordionSummary classes="acc-header" expandIcon={<ExpandMoreIcon />}>
-                    <Typography variant={"h5"}>{props.skill.name}</Typography>
-                </CustomAccordionSummary>
-                <CustomAccordionDetails>
-                    <Typography variant={"h6"}>Proficiency: {props.skill.experience_level}</Typography>
-                    <Typography variant={"h6"}>Years of Experience: {props.skill.years_of_experience}</Typography>
-                    <p>
-                        <img style={{float: 'Right', padding: 1}} height={"100"} src={props.skill.logo} alt={props.skill.name}></img>
-                        {props.skill.description.map((p) => (
-                            <p>{p}</p>
-                        ))}
-                    </p>
-                </CustomAccordionDetails>
-            </CustomAccordion>
-        </div>
+        <>
+            <Typography variant={"h6"}>Proficiency: {props.elem.experience_level}</Typography>
+            <Typography variant={"h6"}>Years of Experience: {props.elem.years_of_experience}</Typography>
+            <p>
+                <img style={{float: 'Right', padding: 1}} height={"100"} src={props.elem.logo} alt={props.elem.name}></img>
+                {props.elem.description.map((p) => (
+                    <p>{p}</p>
+                ))}
+            </p>
+        </>
     )
 }
 
+const SkillAccordionHeader = (props) => {
+    return (
+            <Typography variant={"h5"}>{props.elem.name}</Typography>
+    )
+}
 
 const Skills = () => {
     return (
         <div
             style={{
-                // display: 'flex',
                 justifyContent: 'Right',
                 alignItems: 'Right',
                 height: '100vh'
@@ -55,9 +35,7 @@ const Skills = () => {
         >
             <h1>Skills</h1>
             <p>{Config.PAGE_SUMMARY.Skills}</p>
-            {Config.SKILLS.map((skill) => (
-                <SkillsAccordion skill={skill}/>
-            ))}
+            {<PageAccordion HeaderComponent={SkillAccordionHeader} DetailsComponent={SkillAccordionContent} arr={Config.SKILLS}/>}
         </div>
     );
 };

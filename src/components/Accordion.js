@@ -6,13 +6,13 @@ import React from "react";
 
 export function PageAccordion({HeaderComponent, DetailsComponent, arr}) {
     return (
-        arr.map((project) => (
+        arr.map((elem) => (
             <CustomAccordion>
                 <CustomAccordionSummary classes="acc-header" expandIcon={<ExpandMoreIcon/>}>
-                    <HeaderComponent elem={project}/>
+                    <HeaderComponent elem={elem}/>
                 </CustomAccordionSummary>
                 <CustomAccordionDetails>
-                    <DetailsComponent elem={project}/>
+                    <DetailsComponent elem={elem}/>
                 </CustomAccordionDetails>
             </CustomAccordion>
         ))
