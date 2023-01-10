@@ -7,6 +7,19 @@ import {TabSlides} from "./../components/TabSlides/TabSlides";
 import {PageAccordion} from "./../components/Accordion";
 import {ListPage} from "./../components/ListPage";
 
+const Projects = () => {
+    return (
+        <ListPage
+            MobileComponent={<PageAccordion
+                HeaderComponent={ProjectsAccordionHeader}
+                DetailsComponent={ProjectsAccordionContent}
+                arr={Config.PROJECTS}/>}
+            NonmobileComponent={<ProjectsSlideShow/>}
+            header={"Projects"}
+        />
+    )
+};
+
 const ProjectsAccordionContent = (props) => {
     return (
         <p>
@@ -59,17 +72,5 @@ const ProjectsSlideShow = () => {
 }
 
 
-const Projects = () => {
-    return (
-        <ListPage
-            MobileComponent={<PageAccordion
-                HeaderComponent={ProjectsAccordionHeader}
-                DetailsComponent={ProjectsAccordionContent}
-                arr={Config.PROJECTS}/>}
-            NonmobileComponent={<ProjectsSlideShow/>}
-            header={"Projects"}
-        />
-    )
-};
 
 export default Projects;

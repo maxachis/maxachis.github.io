@@ -36,9 +36,11 @@ const EduTable = ({elem}) => {
 const EduSlideContent = ({elem}) => {
     return (
         <div className={"edu-slide-content"}>
-            {elem.Description.map((p) => (
-                <p>{p}</p>
-            ))}
+            <div className={"text-block"}>
+                {elem.Description.map((p) => (
+                    <p>{p}</p>
+                ))}
+            </div>
         </div>
     )
 }

@@ -55,7 +55,6 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*position: absolute;*/
   margin: auto;
   z-index: -999;
 }
@@ -112,7 +111,6 @@ div {
 
 .slideshow-image {
   height:100%;
-  /*max-height:100%;*/
   max-width: 100%;
   object-fit: scale-down;
 }
@@ -123,17 +121,20 @@ div {
   background-position: right;
   background-repeat: no-repeat;
   max-height: 70vh;
-  /*max-width: 800px*/
 }
 
 .custom-slide {
   margin: auto;
   width: 100%;
-  /*max-width: 1000px;*/
+}
+
+.text-block {
+  padding: 0 10px 0 10px;
+  height: 99%;
+  overflow-y: auto;
 }
 
 .slideshow-content {
-  /*filter: opacity(30%);*/
   background-color: rgba(255, 255, 255, 0.9); /* Color white with alpha 0.9*/
   z-index: 1;
   position: relative;
@@ -142,13 +143,10 @@ div {
   border: 3px solid black;
   overflow-y: auto;
   max-height: 90%;
-  /*height: 100%;*/
-
+  padding: 0 10px 0 10px;
 }
 
 .slideshow-content > p, h2{
-  /*filter: opacity(30%);*/
-  /*background-color: rgba(255, 255, 255, 0.9); !* Color white with alpha 0.9*!*/
   z-index: 1;
 }
 
@@ -169,13 +167,8 @@ div {
 
 .about-pic-mobile {
   object-fit: scale-down;
-  /*max-height: 50vh;*/
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
   width: 100%
-  /*display: none;*/
 }
-
 
 .about-content-pad {
   padding-top: 60vh
@@ -191,13 +184,13 @@ div {
   overflow-y: auto;
   margin: auto;
   max-height: 35vh;
-  max-width: 100%
+  max-width: 100%;
+  padding: 0 10px 0 10px;
 }
 @media screen and (max-width: 768px) {
   .about-content {
     overflow-y: visible;
   }
-
 }
 
 .acc-header {
@@ -326,9 +319,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .edu-slide-content {
   flex: 1;
-  overflow-y: scroll;
   height: 55vh;
-  /*width: 50%;*/
 }
 
 table {

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Add ListPage refactor.">
-      <change afterPath="$PROJECT_DIR$/src/components/Table.js" afterDir="false" />
+    <list default="true" id="1745672e-cec1-476a-9adc-4514d90b2182" name="Changes" comment="Accordion and Slide Refactoring plus Education refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDo.md" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabSlides/TabSlides.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabSlides/TabSlides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabSlides/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/education.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work.js" afterDir="false" />
@@ -89,7 +86,9 @@
       <workItem from="1672928482140" duration="12013000" />
       <workItem from="1673014078895" duration="20506000" />
       <workItem from="1673098127634" duration="19729000" />
-      <workItem from="1673183079920" duration="6400000" />
+      <workItem from="1673183079920" duration="16450000" />
+      <workItem from="1673268253180" duration="3454000" />
+      <workItem from="1673374857946" duration="2238000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md and add ToDo list.">
       <created>1672522072590</created>
@@ -280,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673128326777</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Accordion and Slide Refactoring plus Education refactor">
+      <created>1673189630700</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1673189630700</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +316,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Correct typo" />
     <MESSAGE value="Add custom accordion appearance" />
     <MESSAGE value="Begin work on adding mobile features for website." />
     <MESSAGE value="Personalize manifest and favicon" />
@@ -335,7 +340,8 @@
     <MESSAGE value="Accordion Refactoring Initial.&#10;&#10;Begin Accordion refactoring. Replaced Projects with reference to PageAccordion. Will next do that for other pages with accordions." />
     <MESSAGE value="Add React section in Skills and Logo" />
     <MESSAGE value="Add ListPage refactor." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ListPage refactor." />
+    <MESSAGE value="Accordion and Slide Refactoring plus Education refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Accordion and Slide Refactoring plus Education refactor" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
