@@ -49,7 +49,7 @@ const EduAccordionTabSlides = ({elem}) => {
     const [focusedIdx, setFocusedIdx] = React.useState(0);
 
     return (
-        <div>
+        <div className={"edu-tabslides-container"}>
             <Tabs focusedIdx={focusedIdx} onChange={setFocusedIdx}>
                 <Tab title={"Courses"}/>
                 <Tab title={"Overview"}/>
@@ -140,11 +140,11 @@ const EduTables = (props) => {
 
 
 const Styles = styled.div`
-  padding: 1rem;
+  padding: 0 1rem 0 1rem;
 
   table {
     border-spacing: 0;
-    border: 1px solid black;
+    border-collapse: separate;
 
     tr {
       :last-child {
@@ -153,11 +153,24 @@ const Styles = styled.div`
         }
       }
     }
+    
+    tr {
+      border: 1px solid black;
+      border-collapse: separate
+    }
+    
+    thead {
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+      border-collapse: separate;
+    }
 
     th,
     td {
       margin: 0;
       padding: 0.5rem;
+      border-collapse: separate;
+
       border-bottom: 1px solid black;
       border-right: 1px solid black;
 

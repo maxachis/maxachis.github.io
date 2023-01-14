@@ -27,8 +27,8 @@ const JobSlideshowTitle = ({elem}) => {
     return (
         <div>
             {elem.title}
-            {/*<br/>*/}
-            {/*{elem.organization}*/}
+            <br/>
+            {elem.organization}
             <br/>
             ({elem.start_date} - {elem.end_date})
         </div>

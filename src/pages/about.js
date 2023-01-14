@@ -31,14 +31,6 @@ const AboutContainer = ({children}) => {
 
 const About = () => {
     return (
-        <div
-            style={{
-                justifyContent: 'Left',
-                alignItems: 'Left',
-                height: '100vh',
-                overflow: 'auto',
-            }}
-        >
             <AboutContainer>
                 <div className="about-content-pad"></div>
                 <div className="about-content">
@@ -51,7 +43,6 @@ const About = () => {
                     </div>
                 </div>
             </AboutContainer>
-        </div>
     );
 };
 

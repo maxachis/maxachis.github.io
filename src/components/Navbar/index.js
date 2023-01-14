@@ -10,6 +10,7 @@ import { slide as Menu } from 'react-burger-menu'
 import Config from "../../config";
 
 const Navbar = () => {
+    // TODO: Consider changing font or using Typography
     return (
         <>
             <Menu>
@@ -22,7 +23,7 @@ const Navbar = () => {
             <Nav>
                 <NavMenu>
                     {Config.ROUTES.map((entry) => (
-                        <NavLink to={entry.Path}>
+                        <NavLink to={entry.Path} activeClass={"navbar-active"}>
                             {entry.Name}
                         </NavLink>
                     ))}

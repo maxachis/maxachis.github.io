@@ -15,20 +15,25 @@ import Work from './pages/work';
 import Projects from './pages/projects';
 import Education from './pages/education';
 import Skills from './pages/skills';
+import Resume from './pages/resume';
 
 function App() {
     return (
-        <Router>
-            <Navbar />
-            <Routes>
-                <Route path='/' exact element={<Home />} />
-                <Route path='/about' element={<About />} />
-                <Route path='/work' element={<Work />} />
-                <Route path='/projects' element={<Projects/>} />
-                <Route path='/education' element={<Education/>} />
-                <Route path='/skills' element={<Skills/>} />
-            </Routes>
-        </Router>
+        <div className={"site-container"}>
+            <Router>
+                <Navbar />
+                <Routes>
+                    <Route path='/' exact element={<Home />} />
+                    <Route path='/about' element={<About />} />
+                    <Route path='/work' element={<Work />} />
+                    <Route path='/projects' element={<Projects/>} />
+                    <Route path='/education' element={<Education/>} />
+                    <Route path='/skills' element={<Skills/>} />
+                    <Route path='/resume' element={<Resume/>} />
+                </Routes>
+            </Router>
+        </div>
+
     );
 }
 

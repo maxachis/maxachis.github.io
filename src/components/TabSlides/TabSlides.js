@@ -116,7 +116,7 @@ const StyledSliders = styled.div`
 const StyledTabs = styled.div`
   position: relative;
   list-style: none;
-  height: 30px;
+  //height: 30px;
   z-index: 0;
   ${s.row}
 `;

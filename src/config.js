@@ -5,6 +5,20 @@ const Config = {
         "Education": "This page describes my education as well as the courses which I took in each. It includes information on my GPA, my time of attendance, and a summary of my experience with the degree.",
         "Projects": "This page describes personal projects, including volunteer projects."
     },
+    "RESUME": {
+        "FullName": "Maximilian A. Chis",
+        "LinkedIn": "https://www.linkedin.com/in/maxachis/",
+        "GitHub": "https://github.com/maxachis",
+        "SummaryPoints": [
+            "Full-stack developer with experience in machine learning, data analytics, and database management",
+            "Substantial and diverse programming experience in professional, academic, and volunteer settings."
+        ],
+        "ResumeSkills": {
+            "ProgrammingLanguages": "Python, Java, JavaScript, SQL Server/Oracle, ASP.NET, R, Bash, C#, C, VBScript, ReactJS",
+            "VersionControl": "GitHub, GitLab, Azure DevOps",
+            "OperatingSystems": "Windows, Linux, Unix",
+        }
+    },
     "ROUTES": [
         {
             "Name": "Home",
@@ -30,6 +44,10 @@ const Config = {
             "Name": "Skills",
             "Path": "/skills"
         },
+        {
+            "Name": "Resume",
+            "Path": "/resume"
+        }
     ],
     "WORK": [
         {
@@ -70,7 +88,7 @@ const Config = {
             "title": "Associate Developer",
             "start_date": "August 2022",
             "end_date": "May 2021",
-            "organization": "Federates Hermes",
+            "organization": "Federated Hermes",
             "location": "Pittsburgh, PA",
             "logo": require("./components/assets/images/work/federated_hermes.png"),
             "summary": "Developed and augmented business intelligence applications using combination of C# ASP.Net framework, SQL Database (SQL Server and Oracle) and Excel VBA, including full-stack development of new web apps integrated with backend database.",
@@ -85,10 +103,10 @@ const Config = {
             "title": "Intern",
             "start_date": "September 2018",
             "end_date": "August 2020",
-            "organization": "Federates Hermes",
+            "organization": "Federated Hermes",
             "location": "Pittsburgh, PA",
             "logo": require("./components/assets/images/work/federated_hermes.png"),
-            "summary": "Developed and augmented business intelligence applications using SQL Database (SQL Server and Oracle) and Excel VBA. 2020 Federated Hermes Intern Hackathon, Company-wide winners.",
+            "summary": "Developed and augmented business intelligence applications using SQL Database (SQL Server and Oracle) and Excel VBA.",
             "content": [
                 "My first position to utilize my then-nascent programming and software engineering skills, Federated holds a special place in my heart as the place where I first developed my professional experience and understood the demands of the modern workplace.",
                 "The word \"intern\" can be a little misleading here. Depending on the semester, I alternated between 20 and 40-hour work shifts, and many of my work responsibilities were advanced enough that I often continued them when I became a full-time employee. That work, which gradually increased in sophistication and scope as my time at Federated continued, involved the modification of batch processing scripts, business intelligence applications, and SQL database tables and database scripts. A typical work cycle involved being assigned a requested change by a business user, communicating with that user to clarify the needs, modifying the associated code, submitting a code change request, and monitoring the status of that code change when it was deployed to production. Coding languages involved including SQL, VBScript, and Unix scripting.",
@@ -129,7 +147,7 @@ const Config = {
             "years_of_experience": "5",
             "description": [
                 "Technically the first programming language I learned back in High School, those skills weren't fully explored until I returned to school for Computer Engineer, at which point they rose to become one of my most-used languages, used substantially in my ASP.Net web development work at Federated Investors as well as in helping to develop the front end for the Code for Pittsburgh Food Access Map. I also found myself using it substantially on a videogame called Bitburner, which literally required you to code to succeed in the game. It was at the point where I was coding for fun in my spare time that I began to suspect I had a slightly different relationship with programming than others.",
-                "While I'm happy to do work in Javascript, it is not my favorite language. In my mind, it combine's Java's wordy and cluttered syntax with Python's mysterious unspoken behind-the-scenes assumptions. A common example is how the code of 1 + \"1\" results in \"11\", whereas even Python would throw an error. Additionally, JavaScript's omnipresence in front-end web scripting means the code has to be backwards-compatible to the Late Cretaceous period, which prevents JavaScript from correcting some of its less-adaptive idiosyncrasies except through additional libraries like React."
+                "JavaScript has tremendous power, particularly as the primary scripting language used everywhere on the web, but that omnipresence comes at a cost. JavaScript combine's Java's wordy and cluttered syntax with Python's mysterious unspoken behind-the-scenes assumptions. A common example is how the code of 1 + \"1\" results in \"11\", whereas even Python would throw an error. Additionally, because JavaScript is used everywhere on the internet, the code has to be backwards-compatible to the Late Cretaceous period, which prevents JavaScript from correcting some of its less-adaptive idiosyncrasies except through additional libraries like React."
             ]
         },
         {
@@ -173,6 +191,7 @@ const Config = {
             "Degree": "M.S. in Information Science",
             "University": "University of Pittsburgh",
             "GPA": "4.0",
+            "GraduationDate": "December 2022",
             "Description": [
                 "Having graduated with my B.S. in Computing Engineering at the end of 2020, I had intended to pursue a Master's Degree on a part-time basis while still maintaining my job at Federated Investors. As it happens, however, Dr. Michael Lewis reached out to me shortly after I submitted my application to the University of Pittsburgh, offering a graduate research assistantship in AI that would fund the entirety of my degree as well as provide a stipend for living expenses, in exchange for me becoming a full-time student. After talking with multiple people about the offer, who all gave their enthusiastic support, I decided to take the offer, leaving my job at Federated and returning to school full-time.",
                 "The University of Pittsburgh MSIS program refined and expanded upon the education developed in my Computer Engineering career. Classes covered topics including Database and Network management, Information Security, Artificial Intelligence and Machine Learning, Cloud Computing, and Algorithm Design. Additional coursework gave me my first experience in virtual reality and design using the Unity engine.",
@@ -247,6 +266,7 @@ const Config = {
             "Degree": "B.S. in Computer Engineering",
             "University": "University of Pittsburgh",
             "GPA": "3.413",
+            "GraduationDate": "December 2020",
             "Description": [
                 "Having completed my Psychology Degree in 2016, I then spent a year in the Americorps VISTA program. While working in that program, I also began teaching myself coding in my non-work hours, and found myself taking to it rather well. As the year of my VISTA term progressed, I gradually realized that programming, and the work associated with programming, energized and engaged me in a way that I hadn't previously experienced. Though I acknowledged that returning to school meant that I would have to start at near the bottom of the educational ladder and slowly climb my way back up, there was something energizing and reassuring about the work I was starting to engage in, and the decision to start the Computer Engineering program at the University of Pittsburgh proved to be a relatively simple one.",
                 "My Computer Engineering program started with the fundamentals of chemistry, physics, and mathematics, and gradually expanded into circuit design, programming, and computer architecture and design. My coursework involved programming in C, Java, JavaScript, Unix, and Verilog, which should also convey the scope of the subject matter taught in the classes.",
@@ -416,6 +436,7 @@ const Config = {
             "Degree": "B.S. in Psychology",
             "University": "University of Pittsburgh",
             "GPA": "3.650",
+            "GraduationDate": "August 2016",
             "Description": [
                 "While in retrospect an unconventional decision for someone who ultimately found a career in so-called 'computer work', my Psychology degree proved itself to be generally useful overall as well as having surprising benefits in my Artificial Intelligence work.",
                 "My degree covered the fundamentals of Psychology and research and then branched into more sophisticated topics such as developmental psychology, psychology of personality, abnormal psychology, and cognitive psychology, the last of which proved most directly relevant in my artificial intelligence work. In addition to my core curriculum, I also took general education courses ranging from women's studies, philosophy, world politics, and sociology.",
@@ -558,6 +579,7 @@ const Config = {
             "start_date": "August 2022",
             "end_date": "December 2022",
             "link": "http://d-scholarship.pitt.edu/id/eprint/44036",
+            "inResume": false,
             "description": [
                 "My graduate research assistantship involved the analysis of large amounts of experimental data from the DARPA Artificial Social Intelligence for Successful Teams (ASIST) research trials. Much of my work involved finding ways to quantify the behaviors of players engaged in role-and-teamwork-based search-and-rescue simulations in Minecraft. Over the course of these analysis, I noticed quantifiable patterns in terms of how players divided their attention between multiple interdependent tasks. From that, I developed my Master's Thesis: \"Investigating the Cognitive Load- Productivity Tradeoff in Multitasking.\"",
                 "The core of the thesis was based around the idea that a lot of experimental studies fail to capture the full breadth of real-world phenomena by consigning that phenomena to limited laboratory conditions that don't match the real-life environments where they occur. In the case of multitasking, a lot of experimental studies on multitasking involving participants working on two unrelated tasks and having the participants switch between them when there's no real reason for them to. Unsurprisingly, performance decreased.",
@@ -572,11 +594,13 @@ const Config = {
             "end_date": "Present",
             "link": "https://codeforpittsburgh.github.io/FoodAccessMap/index.html",
             "image": require("./components/assets/images/projects/food_access_map.png"),
+            "inResume": true,
+            "summary": "Map of food access areas in greater Pittsburgh to benefit the area’s underserved communities. Python and R back-end and JavaScript front-end development. 122 Commits made on Github.",
             "description": [
                 "By no means a solo project, I nonetheless played a principal role in the development of the Code for Pittsburgh Food Access Map, a web application designed to assist people in the Pittsburgh Region locate nearby food sources.",
                 "Initially working more in the backend in data processing, geocoding, and deduplication, I gradually transitioned into a leadership role, coordinating and directing other volunteers in the development of the application.",
                 "Volunteer retention and continuity of knowledge were the largest challenges. As with any volunteer project, turnover is high, and consequently the project had to be designed with a high emphasis on maintainability, documentation, and legible code; this way, new volunteers could pick up the project without being so intimidated by an unfamiliar code base as to be dissuaded from contributing.",
-                "Morale was a high concern. Turnover was high as principal developers moved out of the Pittsburgh area or else got occupied with other domains of life, and the pandemic forced a transition to solely remote meetings, making it all the more essential to maintain motivation and engagement. I continually checked in with volunteers to assess their bandwidth for additional work, and discussed reasonable timelines for feature adds and bug fixes. I also placed a high emphasis on making sure attendees had something to do, and that they benefited from it, either by having something they could put on a portfolio (as I'm doing here), an opportunity to learn something new, or simply the feeling of making a meaningful contribution to the project.",
+                "Morale was a major concern. Turnover was high as principal developers moved out of the Pittsburgh area or else got occupied with other domains of life, and the pandemic forced a transition to solely remote meetings, making it all the more essential to maintain motivation and engagement. I continually checked in with volunteers to assess their bandwidth for additional work, and discussed reasonable timelines for feature adds and bug fixes. I also placed a high emphasis on making sure attendees had something to do, and that they benefited from it, either by having something they could put on a portfolio (as I'm doing here), an opportunity to learn something new, or simply the feeling of making a meaningful contribution to the project.",
                 "Another challenge was integrating a disparate array of volunteer skillsets into a single product. The backend, for example was developed in a combination of Python and R due to the different experiences of the contributing volunteers, which had to be reconciled and eventually refactored in solely Python. While most discrepancies between developers were not that dramatic, there were still persistent discrepancies in code styles and documentation, which we had to address in refactoring.",
                 "The project frontend was developed in JavaScript and utilized Boostrap, Leaflet, and Esri libraries. The backend was originally developed in Python and R but eventually was refactored to just Python."
             ]
@@ -587,6 +611,8 @@ const Config = {
             "end_date": "December 2021",
             "image": require("./components/assets/images/projects/MLProjectCollage.jpg"),
             "link": "https://github.com/maxachis/machine-learning-final-project/tree/master",
+            "inResume": true,
+            "summary": "Analyzed anonymized industrial research data utilizing multiple regression and classification models, including Elastic Net, KNN, SVG, GB Tree, Random Forest, and Neural Networks.",
             "description": [
                 "The final project for my graduate machine learning course involved data exploration of a real-life anonymized industrial dataset. Presented with a series of variables whose relationship to each other was unknown, our objective was to identify what these relationships were, and to develop models best able to accurately identify and classify them.",
                 "Working with two datasets that collectively involved 3600 discrete data points and over 40 dimensions in each, manually identifying correlations would have been all but impossible, particularly since the anonymization of the datasets meant that I did not know what dimensions corresponded to what. I had to perform extensive data exploration examining their distribution, correlation with one another, and correlation with the associated output variables.",
@@ -600,6 +626,7 @@ const Config = {
             "end_date": "?",
             "image": require("./components/assets/images/projects/generative_art.png"),
             // "link": "",
+            "inResume": false,
             "description": [
                 "Because I wasn't busy enough during my time in grad school, I also decided to look into making generative art -- that is, art that is made using programming. Using the Processing programming library, along with its Java, Python, and Javascript-based implementations, I developed scripts that, when run, would create visual art based on the code within the scripts. An entire canvas, painted with comparatively few lines of code",
                 "What I found was that I note only enjoyed the art I created with this, but it also gave me the opportunity to explore programmatic, algorithmic, and geometric concepts in delightfully visual ways. Even glitches and bugs sometimes led to surprisingly pleasant results when played out on the canvas. It's since become a tool that I happily recommend to people when they're first learning how to code.",
@@ -607,11 +634,13 @@ const Config = {
             ]
         },
         {
-            "name": "Portfolio website",
+            "name": "Portfolio Website",
             "start_date": "November 2022",
             "end_date": "January 2023",
             "link": "https://maxachis.github.io/",
-            "image": null,
+            "image": require("./components/assets/images/projects/PortfolioProjectImage.jpg"),
+            "inResume": true,
+            "summary": "Developed portfolio website using ReactJS, JavaScript, CSS, and HTML.",
             "description": [
                 "Having recently finished up my graduate degree and now returning to the job market, I decided one of my next projects should be designing a portfolio website. Because I'm me, this also meant that, rather than developing it using something I already know, such as ASP.NET, I would instead learn ReactJS, which I had no prior knowledge of, and use the portfolio website as an opportunity to develop my skills in a new area and also demonstrate how quickly I can develop those skills.",
                 "The primary challenge was bringing myself up to speed with ReactJS, which extended the more familiar-to-me Javascript language with less-familiar JSX and component-based scripting. Fortunately, my prior experience in ASP.NET syntax, which overlaps with JSX syntax, eased the transition with JSX, and React components, once you get over the slightly quirky syntax, are simply a convenient way to make web applications more object-oriented.",
