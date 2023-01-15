@@ -11,6 +11,12 @@ body {
   background-color: #e9eff3;
   height: 100vh;
   overflow: clip;
+
+}
+@media screen and (max-width: 768px) {
+  .site-container {
+    overflow: scroll;
+  }
 }
 
 .navbar-active {
