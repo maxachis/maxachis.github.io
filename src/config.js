@@ -47,6 +47,10 @@ const Config = {
         {
             "Name": "Resume",
             "Path": "/resume"
+        },
+        {
+            "Name": "CoinflipPro",
+            "Path": "/CoinflipPro"
         }
     ],
     "WORK": [
@@ -649,6 +653,14 @@ const Config = {
             ]
         }
     ],
+    "BLOG": {
+        "title": "Blog",
+        "images": {
+            "average_proportion_touch": require("./components/assets/images/blog/average_proportion_touch.png"),
+            "JohnSmithLogo": require("./components/assets/images/blog/JohnSmithLogo.png"),
+        },
+        "blog_text": require("./components/assets/markdown/CoinflipPro.md")
+    }
 };
 
 export default Config;

@@ -16,6 +16,7 @@ import Projects from './pages/projects';
 import Education from './pages/education';
 import Skills from './pages/skills';
 import Resume from './pages/resume';
+import CoinflipPro from "./pages/blog/CoinflipPro";
 
 function App() {
     return (
@@ -30,6 +31,7 @@ function App() {
                     <Route path='/education' element={<Education/>} />
                     <Route path='/skills' element={<Skills/>} />
                     <Route path='/resume' element={<Resume/>} />
+                    <Route path='/CoinflipPro' element={<CoinflipPro />} />
                 </Routes>
             </Router>
         </div>

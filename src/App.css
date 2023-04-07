@@ -403,3 +403,8 @@ th {
   overflow-y: auto;
   padding: 0 10px 0 10px;
 }
+
+/*Coinflip Pro*/
+#touchPercentInput, #touchStrengthInput, #roundsInput {
+    width: 20%;
+}
